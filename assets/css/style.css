@@ -1,0 +1,18 @@
+#ctn-header {
+    background-color: green;
+}
+
+#ctn-reasons {
+    background-color: pink;
+    height: 300px;
+}
+
+#ctn-gallery {
+    background-color: gray;
+    height: 300px;
+}
+
+#ctn-footer {
+    background-color: aqua;
+    height: 150px;
+}
