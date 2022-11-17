@@ -29,6 +29,10 @@ html {
     display: flex;
 }
 
+#banner, #menu {
+    flex-grow: 1;
+}
+
 #ctn-banner {
     background-color: yellow;
     height: 30vh;
