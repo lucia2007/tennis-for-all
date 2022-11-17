@@ -27,13 +27,15 @@ html {
     background-color: green;
     height: 10vh;
     display: flex;
+    align-items: center;
 }
 
-#banner, #menu {
-    flex-grow: 1;
+#menu {
+    display: flex;
+    gap: 0.5rem;
 }
 
-#ctn-banner {
+#ctn-hero {
     background-color: yellow;
     height: 30vh;
 }
