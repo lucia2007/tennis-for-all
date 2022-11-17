@@ -6,24 +6,25 @@
 
 #ctn-header {
     background-color: green;
+    height: 10vh;
 }
 
 #ctn-banner {
     background-color: yellow;
-    height: 150px;
+    height: 30vh;
 }
 
 #ctn-reasons {
     background-color: pink;
-    height: 300px;
+    height: 25vh;
 }
 
 #ctn-gallery {
     background-color: gray;
-    height: 300px;
+    height: 25vh;
 }
 
 #ctn-footer {
     background-color: aqua;
-    height: 150px;
+    height: 10vh;
 }
