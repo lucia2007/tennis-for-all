@@ -1,12 +1,32 @@
+/* give credit to Czechitas */
+
+html {
+    box-sizing: border-box;
+  }
+
+
+*,
+    ::after,
+    ::before {
+    box-sizing: inherit;
+}
+
+/* give credit to Czechitas */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+#menu li {
+    list-style-type: none;
+}
+
 #ctn-header {
     background-color: green;
     height: 10vh;
+    display: flex;
 }
 
 #ctn-banner {
