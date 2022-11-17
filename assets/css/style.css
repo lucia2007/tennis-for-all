@@ -41,6 +41,11 @@ html {
     gap: 1rem;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #ctn-hero {
     background-color: yellow;
     height: 30vh;
