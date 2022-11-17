@@ -35,10 +35,18 @@ html {
     width:50%;
 }
 
+#banner {
+    min-width: 250px;
+}
+
+#ctn-nav {
+    min-width: 270px;
+}
+
 #menu {
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 a {
@@ -71,5 +79,13 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    overflow: none;
+    font-size: 80%;
+    /* justify-content: flex-start; */
+    /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
+    }
+    #menu {
+        justify-content: flex-start;
+        gap: 1rem;
     }
 }    
