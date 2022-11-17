@@ -28,11 +28,17 @@ html {
     height: 10vh;
     display: flex;
     align-items: center;
+    padding: 0 30px;
+}
+
+#banner, #ctn-nav {
+    width:50%;
 }
 
 #menu {
     display: flex;
-    gap: 0.5rem;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
 #ctn-hero {
