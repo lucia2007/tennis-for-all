@@ -2,6 +2,11 @@
     background-color: green;
 }
 
+#ctn-banner {
+    background-color: yellow;
+    height: 150px;
+}
+
 #ctn-reasons {
     background-color: pink;
     height: 300px;
