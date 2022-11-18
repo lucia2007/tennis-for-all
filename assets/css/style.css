@@ -106,6 +106,7 @@ a {
 
 /* media queries to ensure responsivness on different devices */
 
+/* media queries for mobile */
 @media (max-width: 600px) {
     #ctn-header {
     flex-direction: column;
@@ -116,15 +117,28 @@ a {
     /* justify-content: flex-start; */
     /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
     }
+
     #menu {
         justify-content: flex-start;
         gap: 1rem;
     }
 
-    /* .reasons {
-        flex-basis: 50%;
-    } */
     #reasons-boxes {
         flex-direction: column;
     }
 }    
+
+/* media queries for tablet */
+/* 
+@media (max-width: 850px) {
+    #ctn-header {
+        justify-content: center;
+        overflow: none;
+        font-size: 80%; */
+        /* correct the alignment and spacing between the menu items and make them fit within the header + reasons box - no overflow? */
+        /* }
+
+     #reasons-boxes {
+        flex-direction: column;     
+    }
+} */
