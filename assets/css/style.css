@@ -112,6 +112,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
 
 /* media queries to ensure responsivness on different devices */
 
@@ -141,7 +142,7 @@ a {
 }    
 
 /* media queries for tablet */
- 
+/*  
 @media (max-width: 850px) and (min-width: 601px) {
     /* correct the alignment and spacing between the menu items and make them fit within the header + reasons box - no overflow? */
     
@@ -151,9 +152,9 @@ a {
         /* flex-wrap: wrap;
     }  */ 
 
-
+/* /
     .reasons {
         width: 45%;
     }
 
-}
+} */
