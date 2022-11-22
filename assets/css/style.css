@@ -189,10 +189,17 @@ h1, h2, h3 {
     align-items: center;
 }
 
-#groups {
+/* #groups {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
+    text-align: center;
+} */
+
+#groups {
+    display: grid;
+    grid-template-columns: 1;
     gap: 2rem;
     text-align: center;
 }
@@ -241,12 +248,15 @@ h1, h2, h3 {
         grid-template-columns: 1fr 1fr;
     }
 
+    #groups {
+        grid-template-columns: 1fr 1fr;
+    }
+
     #ctn-footer {
         font-size: 80%;
         justify-content: space-between;
     }
 }    
-
 
 /* media queries for desktop */
  
@@ -265,5 +275,8 @@ h1, h2, h3 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
 
+    #groups {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
 }
 
