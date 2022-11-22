@@ -92,7 +92,7 @@ a {
     text-align: center;
 }
 
-.reasons {
+.reason {
     flex: 1;
 }
 
@@ -112,12 +112,14 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    /* height: auto;  */
+    width: 100vw;
 }
 
 /* media queries to ensure responsivness on different devices */
 
 /* media queries for mobile */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #ctn-header {
     flex-direction: column;
     align-items: flex-start;
@@ -132,29 +134,23 @@ a {
         gap: 1rem;
     }
 
-    #ctn-reasons {
-        flex-direction: column;
-    }
-
     #reasons-boxes {
         flex-direction: column;
     }
 }    
 
 /* media queries for tablet */
-/*  
-@media (max-width: 850px) and (min-width: 601px) {
-    /* correct the alignment and spacing between the menu items and make them fit within the header + reasons box - no overflow? */
-    
+ 
+@media screen and (max-width: 850px) and (min-width: 601px) {
+      
 
-    /* #reasons-boxes {
-        /* flex-direction: column;      */
-        /* flex-wrap: wrap;
-    }  */ 
+    #reasons-boxes {
+        flex-direction: column;     
+        flex-wrap: wrap;
+    } 
 
-/* /
-    .reasons {
-        width: 45%;
+    .reason {
+        flex-basis: 55%;
     }
 
-} */
+}
