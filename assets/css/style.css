@@ -39,7 +39,7 @@ body {
     color: #2B303A;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
 }
@@ -169,8 +169,24 @@ a {
     /* position: sticky; */
 }
 
+#contact {
+    line-height: 1.5rem;
+}
+
 #follow {
     text-align: center;
+    min-width: 200px;
+}
+
+#social-media li {
+    list-style-type: none;
+    display: inline;
+}
+
+#social-media i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
 }
 
 /* media queries to ensure responsivness on different devices */
