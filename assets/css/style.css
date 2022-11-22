@@ -54,27 +54,11 @@ h1, h2, h3 {
     justify-content: flex-start;
 }
 
-/* #banner, #ctn-nav {
-    width: 50%;
-} */
-
-/* #banner {
-    min-width: 250px;
-}
-
-#ctn-nav {
-    min-width: 500px;
-} */
-
 #menu {
     display: flex;
     justify-content: flex-start;
     gap: 1rem;
 }
-
-/* .menu-item {
-    min-width: 18ch;
-} */
 
 #menu li {
     list-style-type: none;
@@ -90,12 +74,13 @@ a {
 #menu a:hover {
     background-color: white;
     color:   #23671C;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #23671C;
+    border-radius: 3px;
+    padding: 0.5rem;
 }
 
 .active {
-    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 
 /* styling for the hero image section */
@@ -158,10 +143,10 @@ a {
 #ctn-footer {
     background-color: #2B303A;
     color: white;
-    height: 10vh;
+    /* height: 10vh; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     gap: 1rem;
     /* width: 100vw; */
     font-size: 75%;
