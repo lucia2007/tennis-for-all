@@ -42,7 +42,7 @@ body {
     background-color: green;
     /* height: 10vh; */
     display: flex;
-    padding: 0 5%;
+    padding: 1rem;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -92,7 +92,7 @@ a {
 }
 
 #main-heading {
-    padding: 15px 15px;
+    padding: 1rem;
 }
 
 /* original code using flex */
@@ -110,6 +110,10 @@ a {
     grid-template-columns: 1fr;
     gap: 1rem;
     text-align: center;
+}
+
+.reason {
+    padding: 1rem;
 }
 
 /* styling for the gallery */
