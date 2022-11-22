@@ -33,27 +33,28 @@ body {
 
 #ctn-header {
     background-color: green;
-    height: 10vh;
+    /* height: 10vh; */
     display: flex;
-    align-items: center;
     padding: 0 5%;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #banner, #ctn-nav {
     width: 50%;
 }
 
-#banner {
+/* #banner {
     min-width: 250px;
 }
 
 #ctn-nav {
-    min-width: 270px;
-}
+    min-width: 500px;
+} */
 
 #menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 2rem;
 }
 
@@ -73,7 +74,7 @@ a {
 
 #ctn-reasons {
     background-color: pink;
-    height: 25vh;
+    /* height: 25vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,6 +91,8 @@ a {
     padding: 0 15px;
     /* flex-wrap: wrap; */
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .reason {
@@ -119,18 +122,18 @@ a {
 /* media queries to ensure responsivness on different devices */
 
 /* media queries for mobile */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 800px) {
     #ctn-header {
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     overflow: none;
     font-size: 80%;
      /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
     }
 
     #menu {
-        justify-content: flex-start;
+        justify-content: flex-end;
         gap: 1rem;
     }
 
@@ -145,12 +148,12 @@ a {
       
 
     #reasons-boxes {
-        flex-direction: column;     
+        /* flex-direction: column;      */
         flex-wrap: wrap;
-    } 
+        } 
 
     .reason {
-        flex-basis: 55%;
+        width: 55%;
     }
 
 }
