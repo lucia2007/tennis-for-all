@@ -1,3 +1,8 @@
+/* import from font awesome */
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Lato:wght@300&family=Nunito+Sans&family=Oswald&display=swap');
+
+
 /* give credit to Czechitas */
 
 html {
@@ -30,11 +35,14 @@ html {
  
 body {
     font-size: 16px;
-    /* font-family: sans-serif; */
-    font-weight: 300;
+    font-family: 'Albert Sans', sans-serif;
     color: #2B303A;
 }
 
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
 
 
 #ctn-header {
@@ -78,6 +86,7 @@ a {
     color: white;
 }
 
+/* you have to fix the size of the navbar items when hovered on */
 #menu a:hover {
     background-color: white;
     color:   #23671C;
@@ -154,7 +163,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 100vw;
+    /* width: 100vw; */
     font-size: 75%;
     padding: 1rem;
     /* position: sticky; */
@@ -162,7 +171,7 @@ a {
 
 #follow {
     text-align: center;
-    }
+}
 
 /* media queries to ensure responsivness on different devices */
 
