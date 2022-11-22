@@ -202,6 +202,8 @@ h1, h2, h3 {
     grid-template-columns: 1;
     gap: 2rem;
     text-align: center;
+    justify-content: center;
+    /* padding: 1rem; */
 }
 
 #groups li {
@@ -250,6 +252,7 @@ h1, h2, h3 {
 
     #groups {
         grid-template-columns: 1fr 1fr;
+        gap: 6rem;
     }
 
     #ctn-footer {
@@ -266,6 +269,11 @@ h1, h2, h3 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
 
+    #groups {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 4rem;
+    } 
+
 }
 
 /* media queries for very large screens*/
@@ -277,6 +285,7 @@ h1, h2, h3 {
 
     #groups {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 6rem;
     } 
 }
 
