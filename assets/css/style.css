@@ -27,19 +27,14 @@ html {
 
 
 /* styling for the header, logo and navbar*/
-/* 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-} */
+ 
 
 #menu li {
     list-style-type: none;
 }
 
 #ctn-header {
-    background-color: green;
+    background-color: #23671C;
     /* height: 10vh; */
     display: flex;
     padding: 1rem;
@@ -62,7 +57,7 @@ body {
 #menu {
     display: flex;
     justify-content: flex-start;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 /* .menu-item {
@@ -90,7 +85,7 @@ a {
 /* styling for the reasons section */
 
 #ctn-reasons {
-    background-color: pink;
+    background-color: #58A4B0;
     /* min-height: 25vh; */
     display: flex;
     flex-direction: column;
@@ -125,21 +120,34 @@ a {
 /* styling for the gallery */
 
 #ctn-gallery {
-    background-color: gray;
+    background-color: #BAC1B8;
     height: 25vh;
 }
 
 /* styling for the footer */
 
 #ctn-footer {
-    background-color: aqua;
+    background-color: #2B303A;
+    color: white;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
     width: 100vw;
+    font-size: 75%;
+    padding: 1rem;
 }
+
+#follow {
+    text-align: center;
+    }
+
+#social-media {
+    /* display: block-inline; */
+    /* justify-content: space-between; */
+    /* padding: 10px; */
+}    
 
 /* media queries to ensure responsivness on different devices */
 
@@ -162,7 +170,13 @@ a {
     #reasons-boxes {
         grid-template-columns: 1fr 1fr;
     }
+
+    #ctn-footer {
+        font-size: 80%;
+        justify-content: space-between;
+    }
 }    
+
 
 /* media queries for desktop */
  
