@@ -28,10 +28,14 @@ html {
 
 /* styling for the header, logo and navbar*/
  
-
-#menu li {
-    list-style-type: none;
+body {
+    font-size: 16px;
+    /* font-family: sans-serif; */
+    font-weight: 300;
+    color: #2B303A;
 }
+
+
 
 #ctn-header {
     background-color: #23671C;
@@ -64,9 +68,25 @@ html {
     min-width: 18ch;
 } */
 
+#menu li {
+    list-style-type: none;
+}
+
+
 a {
     text-decoration: none;
     color: white;
+}
+
+#menu a:hover {
+    background-color: white;
+    color:   #23671C;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.active {
+    border-bottom: 1px solid black;
 }
 
 /* styling for the hero image section */
@@ -74,7 +94,7 @@ a {
 #ctn-hero {
     background-image: url(../images/kevin-mueller-Q-fL04RhuMg-unsplash.jpg);
     background-color: #23671C;
-    min-height: 30vh;
+    min-height: 50vh;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -137,17 +157,12 @@ a {
     width: 100vw;
     font-size: 75%;
     padding: 1rem;
+    /* position: sticky; */
 }
 
 #follow {
     text-align: center;
     }
-
-#social-media {
-    /* display: block-inline; */
-    /* justify-content: space-between; */
-    /* padding: 10px; */
-}    
 
 /* media queries to ensure responsivness on different devices */
 
@@ -165,6 +180,7 @@ a {
     #menu {
         justify-content: flex-end;
         gap: 1rem;
+        font-size: 110%;
     }
 
     #reasons-boxes {
@@ -181,6 +197,15 @@ a {
 /* media queries for desktop */
  
 @media screen and (min-width: 1000px) {
+      
+    #reasons-boxes {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+
+}
+
+/* media queries for very large screens*/
+@media screen and (min-width: 1500px) {
       
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
