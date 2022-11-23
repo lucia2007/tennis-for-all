@@ -296,6 +296,11 @@ h1, h2, h3 {
         gap: 6rem;
     }
 
+    #ctn-improvement {
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+    }
+
     #ctn-footer {
         font-size: 80%;
         justify-content: space-between;
