@@ -94,7 +94,6 @@ h1, h2, h3 {
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;
-
 }
 
 /* styling for the reasons section */
@@ -267,6 +266,18 @@ h1, h2, h3 {
     align-items: center;
     gap: 1rem;
 }
+
+/* Contact Us */
+#background {
+    background-image: url(../images/bg_image_contact.jpg);
+    background-color: #23671C;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
 
 /* media queries to ensure responsivness on different devices */
 
