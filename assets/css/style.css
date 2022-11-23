@@ -252,7 +252,7 @@ h1, h2, h3 {
     padding-bottom: 1rem;
 }
 
-.tip >a {
+.tip >a, .text a {
     color: white;
     text-decoration: none;
 }
@@ -271,7 +271,7 @@ h1, h2, h3 {
    /* media queries to ensure responsivness on different devices */
 
 /* media queries for tablet */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
     #ctn-header {
     flex-direction: row;
     align-items: center;
@@ -305,6 +305,11 @@ h1, h2, h3 {
         font-size: 80%;
         justify-content: space-between;
     }
+
+    .none {
+        display: none;
+    }
+
 }    
 
 /* media queries for desktop */
@@ -333,5 +338,12 @@ h1, h2, h3 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 6rem;
     } 
+
+    .improve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 }
 
