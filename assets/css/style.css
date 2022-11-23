@@ -107,8 +107,8 @@ h1, h2, h3 {
     align-items: center;
 }
 
-#main-heading {
-    padding: 1rem;
+.main-heading {
+    padding: 2rem;
 }
 
 /* original code using flex */
