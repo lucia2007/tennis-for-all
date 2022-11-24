@@ -69,15 +69,15 @@ h1, h2, h3 {
 #ctn-header a, #ctn-footer a {
     text-decoration: none;
     color: white;
+    padding: 0.5rem;
 }
 
 /* you have to fix the size of the navbar items when hovered on */
 #menu a:hover {
     background-color: white;
     color:   #23671C;
-    border: 1px solid #23671C;
+    outline: 1px solid #23671C;
     border-radius: 3px;
-    padding: 0.5rem;
 }
 
 .active {
@@ -182,6 +182,7 @@ h1, h2, h3 {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    object-fit: cover;
 }
 
 #ctn-groups {
@@ -354,6 +355,14 @@ h1, h2, h3 {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 6rem;
     } 
+
+    #ctn-improvement {
+        padding: 1rem 15rem;
+    }
+
+    /* #ctn-selfimprovement, #ctn-coaching {
+        padding: 5rem;
+    } */
 
     .improve {
         display: flex;
