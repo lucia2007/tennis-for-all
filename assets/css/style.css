@@ -253,7 +253,16 @@ h1, h2, h3 {
 }
 
 .tip >a, .text a {
-    color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.tip a:hover, .text a:hover {
+    text-decoration: none;
+}
+
+.tip a:visited, .text a:visited {
+    color:black;
     text-decoration: none;
 }
 
@@ -322,11 +331,6 @@ h1, h2, h3 {
         display: none;
     }
 
-    /* .text {
-        max-width: 50%;
-        text-align: center;
-    } */
-
 }    
 
 /* media queries for desktop */
@@ -363,6 +367,12 @@ h1, h2, h3 {
     /* #ctn-selfimprovement, #ctn-coaching {
         padding: 5rem;
     } */
+
+    .text {
+        padding: 0 4rem 1rem;
+        text-align: left;
+    }
+
 
     .improve {
         display: flex;
