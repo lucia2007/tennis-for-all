@@ -26,7 +26,61 @@
         </nav>
     </header>
 
-    <section id="background"></section>
+    <section>
+        <div id="background">
+            <section id="form">
+                <form id="ctn-form" method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+                    
+                    <fieldset class="ctn-contact form">
+                        <legend>Contact Details</legend>
+                        <div>
+                            <label for="f-name">First Name</label>
+                            <input id="f-name" class="text-input" name="first_name" type="text" placeholder="First name" required>
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input id="lname" class="text-input" name="last_name" type="text" placeholder="Last name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="text-input" name="email_address" placeholder="Email address" required>
+                        </div>            
+                    </fieldset>
+
+                    <fieldset class="ctn-survey form">
+                        <legend>Short Survey</legend>   
+                        <p>Which group would you like to join?<p>
+                        <label for="men">Men's Morning</label>
+                        <input type="radio" id="men" name="group_preference" value="men" required>
+                        <label for="ladies">Ladies' Morning</label>
+                        <input type="radio" id="ladies" name="group_preference" value="ladies" required>
+                        <label for="mixed">Mixed Doubles</label>
+                        <input type="radio" id="mixed" name="group_preference" value="mixed" required>
+                        <label for="juniors">Junior's Afternoon</label>
+                        <input type="radio" id="juniors" name="group" value="juniors" required>
+                        
+                        <p>Are you interested in competitive tennis?</p>
+                        <label for="compete-yes">Yes</label>
+                        <input type="radio" id="compete-yes" name="compete_preference" value="yes" required>
+                        <label for="compete-no">No</label>
+                        <input type="radio" id="compete-no" name="compete_preference" value="no" required>
+                        
+                        <p>Are you interested in coaching?</p>
+                        <label for="coaching-yes">Yes</label>
+                        <input type="radio" id="coaching-yes" name="coaching_preference" value="yes" required>
+                        <label for="compete-no">No</label>
+                        <input type="radio" id="coaching-no" name="coaching_preference" value="no" required>   
+                    </fieldset>    
+                    <fieldset class="ctn-message form">
+                        <legend>Leave Us a Message</legend>
+                        <label for="text-box"></label>
+                        <textarea name="message" id="text-box" cols="50" rows="10"> We would love to hear from you</textarea>
+                    </fieldset>
+                    <input class="join-button" type="submit" value="Let's Play">
+                </form>
+            </section>
+        </div>
+    </section>
 
     <footer id="ctn-footer">
         <div id="contact">
