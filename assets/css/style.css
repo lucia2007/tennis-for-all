@@ -60,7 +60,7 @@ h1, h2, h3 {
     padding: 1rem;
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 90%;
+    font-size: 100%;
 }
 
 #menu {
@@ -137,6 +137,11 @@ h1, h2, h3 {
 
 .reason {
     padding: 0 1rem 1rem;
+}
+
+.reason a {
+    color: white;
+    text-decoration: none;
 }
 
 /* styling for the gallery */
