@@ -78,6 +78,7 @@ h1, h2, h3 {
     text-decoration: none;
     color: white;
     padding: 0.5rem;
+    /* text-transform: uppercase; */
 }
 
 /* you have to fix the size of the navbar items when hovered on */
@@ -118,6 +119,10 @@ h1, h2, h3 {
     padding: 1rem;
 }
 
+/* p {
+    line-height: 1.5;
+}
+  */
 /* original code using flex */
 /* #reasons-boxes {
     display: flex;
@@ -193,7 +198,8 @@ h1, h2, h3 {
     /* width: 100vw; */
     font-size: 75%;
     padding: 1rem;
-    /* position: sticky; */
+    position: sticky;
+    bottom: 0;
 }
 
 #contact {
@@ -331,6 +337,7 @@ h1, h2, h3 {
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
+    /* line-height: 2; */
 }
 
 #background {
@@ -400,7 +407,7 @@ textarea {
     #menu {
         justify-content: flex-end;
         gap: 1rem;
-        font-size: 110%;
+        font-size: 95%;
     }
 
     #reasons-boxes {
