@@ -140,9 +140,14 @@ h1, h2, h3 {
 }
 
 .reason a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
+
+/* .reasons a:visited {
+    text-decoration: none;
+    color: black;
+} */
 
 /* styling for the gallery */
 
@@ -412,7 +417,7 @@ input[type=submit] {
         gap: 3rem;
     } 
 
-    .pictures {
+    /* .pictures {
         height: 40vh;
         flex-grow: 1;
     }
@@ -422,7 +427,7 @@ input[type=submit] {
         min-width: 0%;
         object-fit: cover;
         vertical-align: bottom;
-    }
+    } */
 
 }
 
