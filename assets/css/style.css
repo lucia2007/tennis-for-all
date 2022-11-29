@@ -340,6 +340,10 @@ ul#improvement_tips {
     gap: 1rem;
 }
 
+.coach-info {
+    padding-top: 1rem;
+}
+
 /* Contact Us */
 
 #form {
@@ -411,6 +415,7 @@ input[type=submit] {
 
 textarea {
     padding: 0.5rem;
+    border-radius: 5px;
 }
 
 #text-box {
@@ -506,6 +511,14 @@ textarea {
 
     ul#improvement_tips {
         flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .text {
+        padding: 0 3rem 1rem;
+        text-align: left;
+        line-height: 1.4;
     }
 
 }
@@ -515,6 +528,7 @@ textarea {
 
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 4rem;
     }
 
     #gallery {
@@ -540,7 +554,7 @@ textarea {
     } */
 
     .text {
-        padding: 0 4rem 1rem;
+        padding: 0 3rem 1rem;
         text-align: left;
         line-height: 1.4;
     }

@@ -55,42 +55,41 @@
 
                     <fieldset class="ctn-survey form">
                         <legend>Short Survey</legend>
+                        <span class="question">
+                            <p>Which group would you like to join?<p>
+                                <label for="men">Men's Morning</label>
+                                <input type="radio" id="men" name="group_preference" value="men" required>
+                        </span>
+                        <section class="options">
                             <span class="question">
-                                    <p>Which group would you like to join?<p>
-                                    <label for="men">Men's Morning</label>
-                                    <input type="radio" id="men" name="group_preference" value="men" required>
-                                </span>
-                                <section class="options">
-                                    <span class="question">
-                                        <label for="ladies">Ladies' Morning</label>
-                                        <input type="radio" id="ladies" name="group_preference" value="ladies">
-                                    </span>
-                                    <span class="question">
-                                        <label for="mixed">Mixed Doubles</label>
-                                        <input type="radio" id="mixed" name="group_preference" value="mixed">
-                                    </span>
-                                    <span class="question">
-                                        <label for="juniors">Junior's Afternoon</label>
-                                        <input type="radio" id="juniors" name="group" value="juniors">
-                                    </span>
-                                </section>
+                                <label for="ladies">Ladies' Morning</label>
+                                <input type="radio" id="ladies" name="group_preference" value="ladies">
                             </span>
-                            <span>
-                                <p>Are you interested in competitive tennis?</p>
-                                <label for="compete-yes">Yes</label>
-                                <input type="radio" id="compete-yes" name="compete_preference" value="compete-yes"
-                                    required>
-                                <label for="compete-no">No</label>
-                                <input type="radio" id="compete-no" name="compete_preference" value="compete-no">
+                            <span class="question">
+                                <label for="mixed">Mixed Doubles</label>
+                                <input type="radio" id="mixed" name="group_preference" value="mixed">
                             </span>
-                            <span>
-                                <p>Are you interested in coaching?</p>
-                                <label for="coaching-yes">Yes</label>
-                                <input type="radio" id="coaching-yes" name="coaching_preference"
-                                    value="coaching-yes" required>
-                                <label for="compete-no">No</label>
-                                <input type="radio" id="coaching-no" name="coaching_preference" value="coaching-no">
+                            <span class="question">
+                                <label for="juniors">Junior's Afternoon</label>
+                                <input type="radio" id="juniors" name="group_preference" value="juniors">
                             </span>
+                        </section>
+                        </span>
+                        <span>
+                            <p>Are you interested in competitive tennis?</p>
+                            <label for="compete-yes">Yes</label>
+                            <input type="radio" id="compete-yes" name="compete_preference" value="compete-yes" required>
+                            <label for="compete-no">No</label>
+                            <input type="radio" id="compete-no" name="compete_preference" value="compete-no">
+                        </span>
+                        <span>
+                            <p>Are you interested in coaching?</p>
+                            <label for="coaching-yes">Yes</label>
+                            <input type="radio" id="coaching-yes" name="coaching_preference" value="coaching-yes"
+                                required>
+                            <label for="compete-no">No</label>
+                            <input type="radio" id="coaching-no" name="coaching_preference" value="coaching-no">
+                        </span>
                     </fieldset>
 
                     <fieldset class="ctn-message form">
