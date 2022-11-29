@@ -433,6 +433,25 @@ textarea {
     padding: 30px;
 } */
 
+/* Thank you page */
+
+.thanks {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 80%;
+    height: 300px;
+    background-color: rgba(43, 48, 58, 0.6);
+    padding: 1rem;
+    color: white;
+    line-height: 1.8;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 2rem;
+    border-radius: 5px;
+}
+
 /* media queries to ensure responsivness on different devices */
 
 /* media queries for tablet */
@@ -487,6 +506,10 @@ textarea {
 
 @media screen and (min-width: 1000px) {
 
+    .main-heading {
+        padding: 2rem 1rem 1rem;
+    }
+
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -528,7 +551,7 @@ textarea {
 
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 4rem;
+        padding: 2rem 4rem 4rem;
     }
 
     #gallery {
