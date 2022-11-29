@@ -379,7 +379,7 @@ fieldset {
 }
 
 .form {
-    padding: 1rem;
+    padding: 0.5rem 1rem 1rem;
     line-height: 1.8rem;
     width: 100%;
     max-width: 400px;
@@ -390,9 +390,16 @@ fieldset {
     flex-direction: column;
 }
 
-/* .second {
-    padding-bottom: 1rem;
-} */
+.text-input {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.fname, .lname {
+    padding-bottom: 0.5rem;
+}
 
 input[type=submit] {
     padding: 0.75rem;
