@@ -7,12 +7,12 @@
 
 html {
     box-sizing: border-box;
-  }
+}
 
 
 *,
-    ::after,
-    ::before {
+::after,
+::before {
     box-sizing: inherit;
 }
 
@@ -40,14 +40,16 @@ orange: #D64933
 
 
 /* styling for the header, logo and navbar*/
- 
+
 body {
     font-size: 16px;
     font-family: 'Albert Sans', sans-serif;
     color: #2B303A;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
 }
@@ -74,7 +76,8 @@ h1, h2, h3 {
 }
 
 
-#ctn-header a, #ctn-footer a {
+#ctn-header a,
+#ctn-footer a {
     text-decoration: none;
     color: white;
     padding: 0.5rem;
@@ -84,7 +87,7 @@ h1, h2, h3 {
 /* you have to fix the size of the navbar items when hovered on */
 #menu a:hover {
     background-color: white;
-    color:   #23671C;
+    color: #23671C;
     outline: 1px solid #23671C;
     border-radius: 3px;
 }
@@ -92,7 +95,7 @@ h1, h2, h3 {
 .active {
     font-weight: 900;
     /* text-decoration: underline; */
- }
+}
 
 /* styling for the hero image section */
 
@@ -135,7 +138,7 @@ h1, h2, h3 {
 } */
 
 #reasons-boxes {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
     text-align: center;
@@ -148,6 +151,10 @@ h1, h2, h3 {
 .reason a {
     color: black;
     text-decoration: none;
+}
+
+.reason p {
+    line-height: 1.4;
 }
 
 /* .reasons a:visited {
@@ -174,20 +181,6 @@ h1, h2, h3 {
     list-style-type: none;
 }
 
-/* #gallery {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-/* .pictures {
-    height: auto;
-    width: 100%;
-} */
-
-/* .pictures:last-child {
-    flex-grow: 10;
-} */
-
 .picture {
     width: 100%;
     max-height: 75vh;
@@ -201,7 +194,7 @@ h1, h2, h3 {
 #ctn-footer {
     background-color: #2B303A;
     color: white;
-    /* height: 10vh; */
+    /* min-height: 15vh; */
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -276,15 +269,15 @@ h1, h2, h3 {
     line-height: 1.5rem;
 }
 
-.group >a {
+.group>a {
     color: black;
     text-decoration: none;
 }
 
-.group a:visited { 
-    text-decoration: none; 
-    color: black; 
-   }
+.group a:visited {
+    text-decoration: none;
+    color: black;
+}
 
 /* Self-improvement section */
 
@@ -309,21 +302,24 @@ h1, h2, h3 {
     padding-bottom: 1rem;
 }
 
-.tip >a, .text a {
+.tip>a,
+.text a {
     color: black;
     text-decoration: none;
 }
 
-.tip a:hover, .text a:hover {
+.tip a:hover,
+.text a:hover {
     text-decoration: none;
 }
 
-.tip a:visited, .text a:visited {
-    color:black;
+.tip a:visited,
+.text a:visited {
+    color: black;
     text-decoration: none;
 }
 
-#improvement_tips >li {
+#improvement_tips>li {
     list-style-type: none;
 }
 
@@ -360,7 +356,7 @@ h1, h2, h3 {
 }
 
 fieldset {
-   border: 0.5px solid;
+    border: 0.5px solid;
 }
 
 .form {
@@ -369,11 +365,11 @@ fieldset {
 }
 
 input[type=submit] {
-	padding: 0.75rem;
-	background-color: #2B303A ;
-	color: white;
-	border: none;
-	border-radius: 5px;
+    padding: 0.75rem;
+    background-color: #2B303A;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 textarea {
@@ -395,22 +391,22 @@ textarea {
     color: #2B303A;
     background-color: rgba(186, 193, 184, 0.8);
     /* max-width: 400px; */
-    /* position: absolute;
+/* position: absolute;
     left: 5%;
     padding: 30px;
-} */ 
+} */
 
 /* media queries to ensure responsivness on different devices */
 
 /* media queries for tablet */
 @media screen and (min-width: 600px) {
     #ctn-header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    overflow: none;
-    font-size: 100%;
-     /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        overflow: none;
+        font-size: 100%;
+        /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
     }
 
     #menu {
@@ -424,11 +420,7 @@ textarea {
     }
 
     .picture {
-        width: 100%;
         max-height: 50vh;
-        min-width: 0;
-        object-fit: cover;
-        vertical-align: bottom;
     }
 
     #groups {
@@ -452,93 +444,45 @@ textarea {
         display: none;
     }
 
-}    
+}
 
 /* media queries for desktop */
- 
+
 @media screen and (min-width: 1000px) {
-      
+
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    } 
+    }
 
     #gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 150px);
+        grid-template-rows: repeat(5, 1fr);
         grid-gap: 0px;
         height: auto;
-        /* max-width: 2000px; */
         margin: auto;
     }
-    
-    /* #gallery {
-        display: flex;
-        flex-wrap: wrap;
-    } */
-    
-    /* .pictures {
-        height: auto;
-        width: 100%;
-    } */
-    
-    /* .pictures:last-child {
-        flex-grow: 10;
-    } */
-    
+
     .picture {
-        width: 100%;
-        max-height: 50vh;
-        min-width: 0;
-        object-fit: cover;
-        vertical-align: bottom;
+        height: 100%;
     }
 
     #groups {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 3rem;
-    } 
-
-    /* .no-show {
-        display: none;
-    } */
-
-    /* .pictures {
-        height: 40vh;
-        flex-grow: 1;
     }
-        
-    .picture {
-        max-height: 100%;
-        min-width: 0%;
-        object-fit: cover;
-        vertical-align: bottom;
-    } */
-
 }
 
 /* media queries for very large screens*/
 @media screen and (min-width: 1500px) {
-      
+
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    } 
+    }
 
     #gallery {
-        display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(3, 150px);
-        grid-gap: 0px;
-        height: auto;
-        margin: auto;
-    }
-        
-    .picture {
-        width: 100%;
-        max-height: 75vh;
-        min-width: 0;
-        object-fit: cover;
-        vertical-align: bottom;
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .no-show {
@@ -548,7 +492,7 @@ textarea {
     #groups {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 6rem;
-    } 
+    }
 
     #ctn-improvement {
         padding: 1rem 15rem;
@@ -561,8 +505,8 @@ textarea {
     .text {
         padding: 0 4rem 1rem;
         text-align: left;
+        line-height: 1.4;
     }
-
 
     .improve {
         display: flex;
@@ -571,4 +515,3 @@ textarea {
         gap: 1rem;
     }
 }
-
