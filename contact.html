@@ -14,17 +14,16 @@
 
 <body id="ctn-main">
     <header id="ctn-header" aria-label="Main heading">
-        <a href="index.html" id="banner">
-            <h1 id="logo">Tennis For All</h1>
+        <a href="index.html">
+            <h1>Tennis For All</h1>
         </a>
-        <nav id="ctn-nav">
+        <nav aria-label="Navigation bar">
             <ul id="menu">
-                <li class="menu-item"><a href="index.html" aria-label="Takes clients to our Homepage"
+                <li><a href="index.html" aria-label="Takes clients to our Homepage"
                         rel="noopener">Home</a></li>
-                <li class="menu-item"><a href="group.html" aria-label="Takes clients to our Find Your Group page">Find
+                <li><a href="group.html" aria-label="Takes clients to our Find Your Group page">Find
                         Your Group</a></li>
-                <li class="menu-item"><a href="contact.html" class="active"
-                        aria-label="Takes clients to our Contact page">Contact Us</a></li>
+                <li><a href="contact.html" class="active" aria-label="Takes clients to our Contact page">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -32,9 +31,9 @@
     <section>
         <div id="background">
             <section id="form">
-                <form id="ctn-form" method="get" action="thanks.html" class="contact-form">
+                <form id="ctn-form" method="get" action="thanks.html">
 
-                    <fieldset class="ctn-contact form">
+                    <fieldset class="form">
                         <legend>Contact Details</legend>
                         <div class="fname">
                             <label for="f-name">First Name:</label>
@@ -55,44 +54,44 @@
 
                     <fieldset class="ctn-survey form">
                         <legend>Short Survey</legend>
-                        <span class="question">
+                        <span>
                             <p>Which group would you like to join?<p>
-                                <label for="men">Men's Morning</label>
                                 <input type="radio" id="men" name="group_preference" value="men" required>
+                                <label for="men">Men's Morning</label>
                         </span>
                         <section class="options">
-                            <span class="question">
-                                <label for="ladies">Ladies' Morning</label>
+                            <span>
                                 <input type="radio" id="ladies" name="group_preference" value="ladies">
+                                <label for="ladies">Ladies' Morning</label>
                             </span>
-                            <span class="question">
-                                <label for="mixed">Mixed Doubles</label>
+                            <span>
                                 <input type="radio" id="mixed" name="group_preference" value="mixed">
+                                <label for="mixed">Mixed Doubles</label>
                             </span>
-                            <span class="question">
-                                <label for="juniors">Junior's Afternoon</label>
+                            <span>
                                 <input type="radio" id="juniors" name="group_preference" value="juniors">
+                                <label for="juniors">Junior's Afternoon</label>
                             </span>
                         </section>
                         </span>
                         <span>
                             <p>Are you interested in competitive tennis?</p>
-                            <label for="compete-yes">Yes</label>
                             <input type="radio" id="compete-yes" name="compete_preference" value="compete-yes" required>
-                            <label for="compete-no">No</label>
+                            <label for="compete-yes">Yes</label>
                             <input type="radio" id="compete-no" name="compete_preference" value="compete-no">
+                            <label for="compete-no">No</label>
                         </span>
                         <span>
                             <p>Are you interested in coaching?</p>
-                            <label for="coaching-yes">Yes</label>
                             <input type="radio" id="coaching-yes" name="coaching_preference" value="coaching-yes"
                                 required>
-                            <label for="compete-no">No</label>
+                            <label for="coaching-yes">Yes</label>    
                             <input type="radio" id="coaching-no" name="coaching_preference" value="coaching-no">
+                            <label for="compete-no">No</label>
                         </span>
                     </fieldset>
 
-                    <fieldset class="ctn-message form">
+                    <fieldset class="form">
                         <legend>Leave Us a Message</legend>
                         <label for="text-box"></label>
                         <textarea name="message" id="text-box" cols="35" rows="10"
