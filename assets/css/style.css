@@ -3,8 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Lato:wght@300&family=Nunito+Sans&family=Oswald&display=swap');
 
 
-/* give credit to Czechitas */
-
 html {
     box-sizing: border-box;
 }
@@ -15,8 +13,6 @@ html {
 ::before {
     box-sizing: inherit;
 }
-
-/* give credit to Czechitas */
 
 * {
     margin: 0;
@@ -31,13 +27,6 @@ light-blue: #58A4B0
 dark-blue: #2B303A 
 orange: #D64933
 */
-
-/* -------------------------------- Visualizer */
-/* * {
-    outline: 1px solid #f00 !important;
-  } */
-/* -------------------------------- Visualizer */
-
 
 /* styling for the header, logo and navbar*/
 
@@ -57,7 +46,6 @@ h3 {
 
 #ctn-header {
     background-color: #23671C;
-    /* height: 10vh; */
     display: flex;
     padding: 1rem;
     flex-direction: column;
@@ -81,10 +69,8 @@ h3 {
     text-decoration: none;
     color: white;
     padding: 0.5rem;
-    /* text-transform: uppercase; */
 }
 
-/* you have to fix the size of the navbar items when hovered on */
 #menu a:hover {
     background-color: white;
     color: #23671C;
@@ -94,7 +80,6 @@ h3 {
 
 .active {
     font-weight: 900;
-    /* text-decoration: underline; */
 }
 
 /* styling for the hero image section */
@@ -113,7 +98,6 @@ h3 {
 
 #ctn-reasons {
     background-color: #58A4B0;
-    /* min-height: 25vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,20 +106,6 @@ h3 {
 .main-heading {
     padding: 1rem;
 }
-
-/* p {
-    line-height: 1.5;
-}
-  */
-/* original code using flex */
-/* #reasons-boxes {
-    display: flex;
-    gap: 1rem;
-    padding: 0 15px;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-} */
 
 #reasons-boxes {
     display: grid;
@@ -157,18 +127,10 @@ h3 {
     line-height: 1.4;
 }
 
-/* .reasons a:visited {
-    text-decoration: none;
-    color: black;
-} */
-
 /* styling for the gallery */
-
-/* give credit to  https://css-tricks.com/adaptive-photo-layout-with-flexbox/*/
 
 #ctn-gallery {
     background-color: #BAC1B8;
-    /* min-height: 25vh; */
 }
 
 #ctn-gallery {
@@ -194,12 +156,10 @@ h3 {
 #ctn-footer {
     background-color: #2B303A;
     color: white;
-    /* min-height: 15vh; */
     display: flex;
     justify-content: center;
     align-items: baseline;
     gap: 1rem;
-    /* width: 100vw; */
     font-size: 75%;
     padding: 1rem;
 }
@@ -242,17 +202,9 @@ h3 {
     padding: 1rem;
 }
 
-/* #groups {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
-} */
-
 #groups {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     gap: 2rem;
     text-align: center;
     justify-content: center;
@@ -283,7 +235,7 @@ h3 {
 
 #ctn-improvement {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: 1fr;
     gap: 2rem;
     text-align: center;
     justify-content: center;
@@ -295,7 +247,6 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 1rem; */
 }
 
 .text {
@@ -365,7 +316,6 @@ ul#improvement_tips {
     max-width: 400px;
     background-color: rgba(43, 48, 58, 0.6);
     padding: 1rem;
-    /* line-height: 2; */
 }
 
 #background {
@@ -401,7 +351,8 @@ fieldset {
     padding-left: 0.5rem;
 }
 
-.fname, .lname {
+.fname,
+.lname {
     padding-bottom: 0.5rem;
 }
 
@@ -422,16 +373,6 @@ textarea {
     width: 100%;
     max-width: 400px;
 }
-
-/* #ctn-form {
-    margin: 50px 10% 0 0;
-    color: #2B303A;
-    background-color: rgba(186, 193, 184, 0.8);
-    /* max-width: 400px; */
-/* position: absolute;
-    left: 5%;
-    padding: 30px;
-} */
 
 /* Thank you page */
 
@@ -460,9 +401,7 @@ textarea {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        overflow: none;
         font-size: 100%;
-        /* correct the alignment and spacing between the menu items and make them fit within the header - no overflow? */
     }
 
     #menu {
@@ -499,7 +438,6 @@ textarea {
     .none {
         display: none;
     }
-
 }
 
 /* media queries for desktop */
@@ -547,6 +485,7 @@ textarea {
 }
 
 /* media queries for very large screens*/
+
 @media screen and (min-width: 1500px) {
 
     #reasons-boxes {
@@ -571,10 +510,6 @@ textarea {
     #ctn-improvement {
         padding: 1rem 15rem;
     }
-
-    /* #ctn-selfimprovement, #ctn-coaching {
-        padding: 5rem;
-    } */
 
     .text {
         padding: 0 3rem 1rem;
