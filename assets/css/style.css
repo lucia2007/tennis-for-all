@@ -127,6 +127,10 @@ h3 {
     line-height: 1.4;
 }
 
+.link a:hover {
+    background-color:white;
+    border-radius: 5px;
+}
 /* styling for the gallery */
 
 #ctn-gallery {
@@ -296,6 +300,10 @@ ul#improvement_tips {
 }
 
 /* Contact Us */
+
+.no-header {
+    display: none;
+}
 
 #form {
     color: white;
