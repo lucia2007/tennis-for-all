@@ -133,15 +133,7 @@ h3 {
     border-radius: 5px;
 }
 
-.email-footer >a a:hover {
-    background-color:white;
-    border-radius: 5px;
-    color:#2B303A;
-}
-
-/* get rid of email footer class if not using */
-
-/* styling for the gallery */
+* styling for the gallery */
 
 #ctn-gallery {
     background-color: #BAC1B8;

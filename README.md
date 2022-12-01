@@ -20,9 +20,16 @@ Tennis For All is useful for all people in a particular neighbourhood who want t
 * [**Features**](<#features>)
     * [**Tennis For All**](<#navigation-menu>)
          * [Navigation menu](<#navigation-menu>)
-         * [Hero Image](<hero-image>)
+         * [Hero Image](<#hero-image>)
          * [Gallery](<#gallery>)
          * [Footer](<#footer>)
+    * [**Find Your Group**](<#find-group>)
+         * [Find Your Group](<#find-group>)
+         * [Improvement Section](<#improvement>)
+    * [**Contact Form**](<#contact-form>)
+         * [Contact Form](<#contact-form>)
+    * [**Thank You**](<#thank-you>)
+         * [Thank you message](<#thank-you>)     
 
 ##Wireframes
 
@@ -73,9 +80,9 @@ Tennis For All website has three pages. All pages can be easily accessed through
 <!-- Tennis For All is meant to be inviting, straightforward and easy to navigate. Navigation bar makes finding the necessary information simple. All hypertext links open in a new page. The contact form invites the clients to get in touch and get involved. -->
 ## The Landing Page
 
-### Navigation Bar
+### Navigation Menu
 
-![Navigation Bar](assets/readme-images/navbar.png)
+![Navigation Menu](assets/readme-images/navbar.png)
 
 * Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to Home, Find Your Group and Contact page. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
 
@@ -113,24 +120,42 @@ The main purpose of this section is to show people of different age, genders and
 
 The Footer section is consistent in design in all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
 
-# Find Your Group Page
+[Back to top](<#contents>)
 
+## Find Your Group Page
 
-## Groups
+### Available Groups
 
-This part of the page introduced different options which are available. It provides details about the meet up times and place of each of the groups, gives details about standards and format of the game. Cost and refreshment information is also included.
-<!-- include an image -->
+![Find Your Group](assets/readme-images/find_group.png)
 
-## Competitive tennis
+This part of the page introduces different options which are available for interested clients. It provides details about the meet up times and place of each of the available groups, gives details about standards and format of the game. Cost and refreshment information is also included.
 
-This section focuses on those players who would like to play on a more competitive level or would be interested in taking up coaching. A link to the neighbourhood club which offers these options is included.
-<!-- include an image -->
+### Improvement Section
 
-# Contact Us
+![Improvement Section](assets/readme-images/improvement.png)
 
-## Form
+This section focuses on those players who would like to improve their game or play on a more competitive level. Links to educational videos in five major areas (grand strokes, serve, volley, footwork, tactics) are provided.  Information about coaching possibilies is presented for those clients who might be interested in taking up coaching. A link to the location of the neighbourhood club which offers these options is included.
+
+## Contact Us
+
+### Contact Form and A Short Survey
+
+![Contact Form](assets/readme-images/form.png)
+
 A form is available for those who would like to get in touch, need further information or are interested in more competitive tennis or coaching. All elements, like name, email address etc. are required.
-<!-- include an image -->
+
+## Thank You
+
+### Thank you message
+
+![Thank you message](assets/readme-images/thank_you.png)
+
+A thank you message is displayed after filling in the contact form and the survey.
+
+
+
+
+
 
 
 # Features left to implement
