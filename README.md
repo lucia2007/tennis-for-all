@@ -1,37 +1,120 @@
 # Tennis For All
 
-The purpose of this website is to encourage people of all ages, skills and standards to consider taking up tennis. It mainly wants to show that tennis can be accessible to all. You don’t have to be a pro with years of coaching to be able to enjoy this game. The social aspect of the events should be emphasized as well. The site will be targeted towards people who might not be very active physically and who are lacking social connection. Tennis For All will be useful for all people in a particular neighbourhood who want to meet new friends and be more active by providing information about different options available for men, women and children and also for those who want to play tennis at a more competitive level.
+The purpose of this website is to encourage people of all ages, skills and standards to consider taking up tennis. It introduces tennis as an accessible option for everyone. It shows you don’t have to be a pro with years of coaching to be able to enjoy this game. The social aspect of the events is clearly emphasized as well. 
 
-# Responsive Mockup
+The site is targeted towards people who might not be very physically active and who are lacking social connection. 
 
-<!-- include pictures of the original balsamiq wireframes and the new one with a change in layout, explain why you changed it -->
+Tennis For All is useful for all people in a particular neighbourhood who want to meet new friends and be more fit by providing information about different game options available for men, women and children, but also for those who want to play tennis at a more competitive level.
+
+<a href="https://lucia2007.github.io/tennis-for-all/index.html" target="_blank" rel="noopener">Let's play!</a>
+
+![Tennis For All responsive design](assets/readme-images/responsive_layout.png)
+
+#Contents
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *  [Typography](<#typography>)
+    *  [Colour Scheme](<#color-scheme>)
+* [**Features**](<#features>)
+    * [**Tennis For All**](<#navigation-menu>)
+         * [Navigation menu](<#navigation-menu>)
+         * [Hero Image](<hero-image>)
+         * [Gallery](<#gallery>)
+         * [Footer](<#footer>)
+
+##Wireframes
+
+![Desktop wireframe page 1 and page 2](assets/readme-images/mockup_p1_p2_desktop.png)
+
+![Desktop wireframe page 3](assets/readme-images/mockup_p3_desktop.png)
+
+![Tablet and mobile wireframe page 1](assets/readme-images/mockup_p1_tablet_mobile.png)
+
+![Tablet and mobile wireframe page 2](assets/readme-images/mockup_p2_tablet_mobile.png)
+
+![Tablet and mobile wireframe page 3](assets/readme-images/mockup_p3_tablet_mobile.png)
+
+The wireframes were created in [Balsamiq](https://balsamiq.com). Originally, I started with focusing on the desktop version. After encouragement from a tutor, I changed my approach to mobile first. This approach later led to simpler media queries.
+
+On the second page I added a fourth tennis group to make the page more even for larger screens. 
+
+I left out pictures in the Improvement section for larger screens as they were disruptive having been placed right under another set of pictures in the Find Your Group section.
+
+After consultation with my mentor, I additionaly created a separate section for the self-improvement tips, instead of placing them in the footer. 
+
+I also left out the "How to Find Us" section, as it was bringing focus to a particular club, whereas the purpose of the site is to arouse interest in tennis itself, the venue being secondary. 
+
+Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
+
+[Back to top](<#contents>)
+
+## Site Structure
+
+Tennis For All website has three pages. All pages can be easily accessed through the navigation menu in the header section. The [Landing page](index.html), the [Find Your Group](group.html) page and finally the [Contact Us](contact.html) page.
+
+[Back to top](<#contents>)
+
+## Design Choices
+
+ * ### Typography
+      The chosen fonts were downloaded from [Google Fonts](https://fonts.google.com/). "Albert Sans", weight 300, is used for the body and for the headings it is 'Nunito Sans', both with a fall back to sans-serif. Both fonts create an inviting, non-intimidating feeling and are easily legible.
+
+ * ### Color Scheme
+      The chosen color scheme reflects the colors most often seen on tennis courts: green, orange, blue. The complementary colors were chosen using [Color pallete generator](coolors.co).
+
+![Colour Pallete image](assets/readme-images/color_pallete.png)
+
+[Back to top](<#contents>)
 
 # Features
 
-Navigation Bar
-Navigation Bar is present on all three pages to make navigation of the website easy and quick. The navigation bar containes links to Home, Find Your Group and Contact page. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
+<!-- Tennis For All is meant to be inviting, straightforward and easy to navigate. Navigation bar makes finding the necessary information simple. All hypertext links open in a new page. The contact form invites the clients to get in touch and get involved. -->
+## The Landing Page
 
-<!-- add navbar picture -->
-# The Landing Page
+### Navigation Bar
 
-## The Hero Image
+![Navigation Bar](assets/readme-images/navbar.png)
+
+* Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to Home, Find Your Group and Contact page. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
+
+* The main logo is also clickable and takes the user back to the home page.
+
+[Back to top](<#contents>)
+
+### The Hero Image
+
+![Hero Image](assets/readme-images/hero_image.png)
+
 The landing page includes a large dynamic image of a tennis ball which catches the eye of the user.
-<!-- add landing page/hero image maybe I will add a call to action or a sales pitch to the webpage-->
 
-## The Reasons Section
+[Back to top](<#contents>)
+
+### The Reasons Section
+
+![Reasons To Play Tennis](assets/readme-images/reasons.png)
+
 This sections introduces four reasons for taking up tennis, including a hypertext link to a study which shows that playing tennis can prolong life by 10 years, far more than other sports. Its goal is to get people interested and help them consider giving tennis a try.
-<!-- include an image of this section -->
 
-## Galery Section
-The main purpose of this section to show people of different age, genders, economic status playing tennis and having fun and connection while doing it. This section will help users find courage to give tennis a try.
-<!-- add a picture of the gallery -->
+[Back to top](<#contents>)
 
-## The Footer
+### The Gallery Section
 
-The Footer section includes email and phone contact of the person responsible for the social tennis area which takes place in the neighbourhood club. There are also links to a fictive social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected and also the social media links open in a new tab. 
-<!--Footer image-->
+![Gallery](assets/readme-images/gallery.png)
+
+The main purpose of this section is to show people of different age, genders and economic status playing tennis, having fun and connection while doing it. This section will help users find courage to give tennis a try.
+
+[Back to top](<#contents>)
+
+### The Footer
+
+![The Footer](assets/readme-images/footer.png)
+
+The Footer section is consistent in design in all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
 
 # Find Your Group Page
+
 
 ## Groups
 
@@ -121,3 +204,5 @@ Writing Your Best Code
 HTML & CSS Coding Best Practices
 Google HTML/CSS Style Guide
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! -->
+
+[def]: assests/readme/images/mockup_p1_p2_desktop.png

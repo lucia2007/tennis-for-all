@@ -80,6 +80,7 @@ h3 {
 
 .active {
     font-weight: 900;
+    font-style: italic;
 }
 
 /* styling for the hero image section */
@@ -119,7 +120,7 @@ h3 {
 }
 
 .reason a {
-    color: black;
+    color: #2B303A;
     text-decoration: none;
 }
 
@@ -131,6 +132,15 @@ h3 {
     background-color:white;
     border-radius: 5px;
 }
+
+.email-footer >a a:hover {
+    background-color:white;
+    border-radius: 5px;
+    color:#2B303A;
+}
+
+/* get rid of email footer class if not using */
+
 /* styling for the gallery */
 
 #ctn-gallery {
@@ -226,13 +236,13 @@ h3 {
 }
 
 .group>a {
-    color: black;
+    color: #2B303A;
     text-decoration: none;
 }
 
 .group a:visited {
     text-decoration: none;
-    color: black;
+    color: #2B303A;
 }
 
 /* Self-improvement section */
@@ -305,7 +315,7 @@ ul#improvement_tips {
     display: none;
 }
 
-#form {
+#forms {
     color: white;
     padding: 1rem;
 }
@@ -409,13 +419,13 @@ textarea {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        font-size: 100%;
+        font-size: 105%;
     }
 
     #menu {
         justify-content: flex-end;
         gap: 1rem;
-        font-size: 95%;
+        font-size: 105%;
     }
 
     #reasons-boxes {
