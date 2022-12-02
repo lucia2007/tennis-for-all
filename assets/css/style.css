@@ -68,7 +68,7 @@ h3 {
 #ctn-footer a {
     text-decoration: none;
     color: white;
-    padding: 0.5rem;
+    padding: 0.2rem;
 }
 
 #menu a:hover {
@@ -163,7 +163,7 @@ h3 {
     background-color: #2B303A;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
     gap: 1rem;
     font-size: 75%;
@@ -172,11 +172,12 @@ h3 {
 
 #contact {
     line-height: 1.5rem;
+    width: 100%;
 }
 
 #follow {
     text-align: center;
-    min-width: 200px;
+    width: 100%;
 }
 
 #social-media li {
@@ -444,6 +445,18 @@ textarea {
         position: sticky;
         bottom: 0;
     }
+
+    /* #contact {
+        line-height: 1.5rem;
+        width: 100%;
+    } */
+    
+    #follow {
+        /* text-align: center; */
+        /* min-width: 200px; */
+        max-width: 150px;
+    }
+    
 
     .none {
         display: none;

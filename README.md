@@ -30,7 +30,7 @@ Tennis For All is useful for all people in a particular neighbourhood who want t
          * [Improvement Section](#improvement-section)
     * [**Contact Us Page**](#contact-us-page)
          * [Contact Form and a Short Survey](#contact-form-and-a-short-survey)
-    * [**Thank You**](#thank-you)
+    * [**Thank You Page**](#thank-you-page)
          * [Thank you message](#thank-you-message)   
     * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -45,16 +45,6 @@ Tennis For All is useful for all people in a particular neighbourhood who want t
 
 ## Wireframes
 
-![Desktop wireframe page 1 and page 2](assets/readme-images/mockup_p1_p2_desktop.png)
-
-![Desktop wireframe page 3](assets/readme-images/mockup_p3_desktop.png)
-
-![Tablet and mobile wireframe page 1](assets/readme-images/mockup_p1_tablet_mobile.png)
-
-![Tablet and mobile wireframe page 2](assets/readme-images/mockup_p2_tablet_mobile.png)
-
-![Tablet and mobile wireframe page 3](assets/readme-images/mockup_p3_tablet_mobile.png)
-
 The wireframes were created in [Balsamiq](https://balsamiq.com). Originally, I started with focusing on the desktop version. After encouragement from a tutor, I changed my approach to mobile first. This approach later led to simpler media queries.
 
 On the second page I added a fourth tennis group to make the page more even for larger screens. 
@@ -66,6 +56,16 @@ After consultation with my mentor, I additionaly created a separate section for 
 I also left out the "How to Find Us" section, as it was bringing focus to a particular club, whereas the purpose of the site is to arouse interest in tennis itself, the venue being secondary. 
 
 Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
+
+[Desktop wireframe page 1 and page 2](assets/readme-images/mockup_p1_p2_desktop.png)
+
+[Desktop wireframe page 3](assets/readme-images/mockup_p3_desktop.png)
+
+[Tablet and mobile wireframe page 1](assets/readme-images/mockup_p1_tablet_mobile.png)
+
+[Tablet and mobile wireframe page 2](assets/readme-images/mockup_p2_tablet_mobile.png)
+
+[Tablet and mobile wireframe page 3](assets/readme-images/mockup_p3_tablet_mobile.png)
 
 [Back to top](#contents)
 
@@ -163,7 +163,7 @@ A form is available for those who would like to get in touch, need further infor
 
 [Back to top](#contents)
 
-## Thank You
+## Thank You Page
 
 ### Thank You Message
 
