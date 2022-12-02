@@ -129,15 +129,14 @@ h3 {
 }
 
 .link a:hover {
-    background-color:white;
+    background-color: white;
     border-radius: 5px;
 }
 
-* styling for the gallery */
-
-#ctn-gallery {
+/* * styling for the gallery */
+/* #ctn-gallery {
     background-color: #BAC1B8;
-}
+} */
 
 #ctn-gallery {
     display: grid;
@@ -258,6 +257,10 @@ h3 {
 
 .text {
     padding-bottom: 1rem;
+}
+
+.tip {
+    font-weight: bold;
 }
 
 .tip>a,
@@ -450,13 +453,13 @@ textarea {
         line-height: 1.5rem;
         width: 100%;
     } */
-    
+
     #follow {
         /* text-align: center; */
         /* min-width: 200px; */
         max-width: 150px;
     }
-    
+
 
     .none {
         display: none;
