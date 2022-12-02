@@ -28,11 +28,11 @@ The CSS Validator results are below:
 
 ## Responsiveness Test
 
-* Testing of responsive design was carried out manually by utilizing [Google Chrome DevTools](https://developer.chrome.com/docs/devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+Testing of responsive design was carried out manually by utilizing [Google Chrome DevTools](https://developer.chrome.com/docs/devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
-|        | Apple 6/6S/7 | Galaxy S5 | iPhone 5 | iPad Mini | iPad Pro | Display <1200px | Display >1200px |
-|--------|--------------|-----------|----------|-----------|----------|-----------------|-----------------|
-| Render | pass         | pass      | pass-no  | pass      | pass -no | pass            | pass            |
-| Images | pass         | pass      | pass     | pass      | pass     | pass            | pass            |
-| Links  | pass         | pass      | pass     | pass      | pass     | pass            | pass            |
+|        | S Galaxy 5 | iPhone 6/6S/7| iPhone 5 | iPad Mini | iPad Pro | Display <1200px | Display >1200px |
+|--------|------------|--------------|----------|-----------|----------|-----------------|-----------------|
+| Render | pass       | pass         | pass-no  | pass      | pass -no | pass            | pass - no       |
+| Images | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
+| Links  | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 
