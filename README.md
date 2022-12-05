@@ -71,7 +71,7 @@ Lastly, I added an extra Thank you page where a user is taken after filling in t
 
 ## Site Structure
 
-Tennis For All website has three pages. All pages can be easily accessed through the navigation menu in the header section. The [Landing page](index.html), the [Find Your Group](group.html) page and finally the [Contact Us](contact.html) page.
+Tennis For All website has three pages. All pages can be easily accessed through the navigation menu in the header section. The [Home page](index.html), the [Find Your Group](group.html) page and finally the [Contact Us](contact.html) page.
 
 [Back to top](#contents)
 
@@ -131,7 +131,7 @@ The main purpose of this section is to show people of different age, genders and
 
 ![The Footer](assets/readme-images/footer.png)
 
-The Footer section is consistent in design in all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
+The Footer section is consistent in design on all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
 
 [Back to top](#contents)
 
@@ -175,38 +175,24 @@ A thank you message is displayed after filling in the contact form and the surve
 
 ### Future Features 
 
-Adding a back to top button would enhance the user's experience as he/she wouldn't have to scroll back all the way to the top.
+* Adding a back to top button would enhance the user's experience as he/she wouldn't have to scroll back all the way to the top.
+* I might consider changing the hero image for an image that would not be so dark in the future.
 
 [Back to top](#contents)
 
 # Technologies Used
 
-* [HTML5](https://html.spec.whatwg.org/) - provided the structure and content for the website.
-* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - enabled applying own styles and design.
-* [Balsamiq](https://balsamiq.com/wireframes/) - used for creating the wireframes.
-* [Gitpod](https://www.gitpod.io/#get-started) - used for deploying the website.
-* [Github](https://github.com/) - used for hosting and editing the website.
+* [HTML5](https://html.spec.whatwg.org/) - provided the structure and content for the website
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - enabled applying own styles and design
+* [Balsamiq](https://balsamiq.com/wireframes/) - used for creating the wireframes
+* [Gitpod](https://www.gitpod.io/#get-started) - used for deploying the website
+* [Github](https://github.com/) - used for hosting and editing the website
 
 [Back to top](#contents)
 
 # Testing
-<!-- Testing 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. -->
+For detailed results of all the tests conducted, please refer to this [_file_](TESTING.md).
 
 [Back to top](#contents)
 
@@ -216,13 +202,15 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## **Project Deployment**
 
-The site was deployed to GitHub pages. In order to deploy, take the following steps:
+The site was deployed to GitHub pages. In order to deploy, the following steps were taken:
   1. Navigate to the **Settings** tab in the GitHub repository.
   2. When in **Settings**, navigate to the **Pages** tab below the middle of the list on the left hand side.
   3. From the **Branch** drop-down menu select the option **main**, then click **save**.
   4. After the main branch has been selected and confirmed, the page will be automatically refreshed. The refresh might take several minutes. A detailed message will appear at the top of the page indicating the successful deployment. The message will include a link to the deployed site.
 
-  The link to the the live site can be found here - https://lucia2007.github.io/tennis-for-all/
+![GitHub deploying process image](assets/readme-images/deployment.png)
+
+The link to the the live site can be found here - https://lucia2007.github.io/tennis-for-all/
 
 [Back to top](#contents)  
 
@@ -231,6 +219,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 1. Log in to **GitHub** and locate the [repository](https://github.com/lucia2007/tennis-for-all).
 2. On the top right hand side of the page is a button called **'Fork'**. Click on the button to create a copy of the original repository in your GitHub Account.
+
 ![GitHub forking process image](assets/readme-images/forking_process.png)
 
 [Back to top](#contents)
@@ -246,7 +235,7 @@ Take the following steps to create a clone of a project:
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
-![Cloning image](assets/readme-images/cloning_process.png)
+![Github cloning process image](assets/readme-images/cloning_process.png)
 
 [Back to top](#contents)
 
@@ -254,11 +243,12 @@ Take the following steps to create a clone of a project:
 
 ## Content
 
-* The overall inspiration came from my local [Tennis Club](https://shankilltennisclub.com/) which is extremely welcoming and accomodating of new players.
+* The overall inspiration came from my local [Tennis Club](https://shankilltennisclub.com/) which is extremely welcoming and accomodating of new players. Visiting this club significantly helped our family with making friends, having fun, keeping fit and assimilating in the new country.
 * The inspiration for the navigation and the form came from *Love Running Project*.
 * The Find Your Group section was inspired by [Czechitas](https://czechitas.cz).
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
 * The location of the local tennis club is taken from [Google Maps](https://www.google.com/maps).
+* The Find Your Group page content was taken from this [site](https://shankilltennisclub.com/).
 * The color pallete was downloaded from [coolors](https://coolors.co).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
@@ -272,8 +262,6 @@ Take the following steps to create a clone of a project:
 * The photos were compressed using the [Squoosh app](https://squoosh.app//).
 
 ## Extra Help
-* Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife O'Donnell. Thank you all for your unending support.
-
-<!-- Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial????? -->
+* Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. Thank you all for your unending support.
 
 
