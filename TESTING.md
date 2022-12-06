@@ -57,7 +57,7 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 The application was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome Developer Tools. The following aspects were tested:
 
 * Performance - reveals how the site performs during loading
-* Accessibility - shows if the site if accessible for all users and suggests way to improve it
+* Accessibility - shows if the site if accessible for all users and suggests ways to improve it
 * Best Practices - indicates if the site conforms to industry best practices
 * SEO - Search Engine Optimisation - shows if the site is optimised for search engine result rankings
 

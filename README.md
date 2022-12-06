@@ -257,7 +257,7 @@ Take the following steps to create a clone of a project:
 
 ## Media
 
-* The images were downloaded from [Unsplash](https://unsplash.com/) and [iStock](https://www.istockphoto.com/).
+* The images were downloaded from [Unsplash](https://unsplash.com/), [iStock](https://www.istockphoto.com/) and [Shankill Tennis Club](https://shankilltennisclub.com/).
 * The instructional tennis videos were found on [YouTube](https://youtube.com).
 * The photos were compressed using the [Squoosh app](https://squoosh.app//).
 
