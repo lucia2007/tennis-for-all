@@ -87,7 +87,7 @@ h3 {
 .active {
     font-weight: 900;
     /* font-style: italic; */
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* styling for the hero image section */
@@ -115,6 +115,8 @@ h3 {
     padding: 1rem;
 }
 
+/* reasons  */
+
 #reasons-boxes {
     display: grid;
     grid-template-columns: 1fr;
@@ -140,6 +142,8 @@ h3 {
     border-radius: 5px;
 }
 
+/* gallery */
+
 #ctn-gallery {
     display: grid;
     grid-template-columns: 1fr;
@@ -156,6 +160,16 @@ h3 {
     min-width: 0;
     object-fit: cover;
     vertical-align: bottom;
+}
+
+button {
+    padding: 0.75rem;
+    background-color: #2B303A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 1rem 2rem;
+    font-size: 110%;
 }
 
 /* styling for the footer */
