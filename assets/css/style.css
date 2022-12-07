@@ -273,7 +273,7 @@ button:hover {
 }
 
 .text {
-    padding-bottom: 1rem;
+    padding: 1rem 0rem;
 }
 
 .tip {
@@ -304,7 +304,7 @@ button:hover {
 ul#improvement_tips {
     display: flex;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     align-content: center;
@@ -456,7 +456,6 @@ textarea {
     }
 
     #ctn-improvement {
-        /* grid-template-columns: 1fr 1fr; */
         gap: 3rem;
         padding: 0 5rem;
     }
@@ -471,11 +470,7 @@ textarea {
     #follow {
         max-width: 150px;
     }
-
-    /* .none {
-        display: none;
-    }
-} */
+}
 
 /* media queries for desktop */
 
@@ -516,20 +511,20 @@ textarea {
         gap: 6rem;
     }    
 
-    .improve {
-        flex-direction: column;
-    }
-
     ul#improvement_tips {
         flex-direction: row;
-        justify-content: center;
         gap: 0.5rem;
+        padding-top: 1rem;
     }
 
     .text {
         padding: 0 3rem 1rem;
         text-align: left;
         line-height: 1.4;
+    }
+
+    p.text.link {
+        padding-top: 1rem;
     }
 }
 
@@ -557,20 +552,7 @@ textarea {
     }
 
     #ctn-improvement {
-        padding: 1rem 15rem;
+        padding: 1rem 13rem;
         align-items: baseline;
-    }
-
-    .text {
-        padding: 0 3rem 1rem;
-        text-align: left;
-        line-height: 1.4;
-    }
-
-    .improve {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
     }
 }
