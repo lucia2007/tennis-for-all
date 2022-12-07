@@ -36,7 +36,7 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 |        | S Galaxy 5 | iPhone 6/6S/7| iPhone 5 | iPad Mini | iPad Pro | Display <1200px | Display >1200px |
 |--------|------------|--------------|----------|-----------|----------|-----------------|-----------------|
-| Render | pass       | pass         | pass-no  | pass      | pass -no | pass            | pass - no       |
+| Render | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 | Images | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 | Links  | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 

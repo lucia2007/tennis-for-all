@@ -172,6 +172,10 @@ button {
     font-size: 110%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 
 /* styling for the footer */
 
@@ -489,7 +493,7 @@ textarea {
 @media screen and (min-width: 1000px) {
 
     .main-heading {
-        padding: 2rem 1rem 1rem;
+        padding: 2rem 1rem;
     }
 
     #reasons-boxes {
@@ -534,7 +538,7 @@ textarea {
 
     #reasons-boxes {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 2rem 4rem 4rem;
+        padding: 2rem 4rem;
     }
 
     #gallery {
