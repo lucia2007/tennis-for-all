@@ -258,7 +258,7 @@ Take the following steps to create a clone of a project:
 * The instructional tennis videos were found on [YouTube](https://youtube.com).
 * The photos were compressed using the [Squoosh app](https://squoosh.app//).
 
-## Acknowledgement
+## Acknowledgements
 * Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
 * I received help from tutors with my images (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements.
 * To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
