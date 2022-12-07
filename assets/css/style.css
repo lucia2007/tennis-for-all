@@ -134,6 +134,20 @@ h3 {
     border-radius: 5px;
 }
 
+button {
+    padding: 0.75rem;
+    background-color: #2B303A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 2rem 1rem;
+    font-size: 110%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 /* gallery */
 
 #ctn-gallery {
@@ -154,18 +168,8 @@ h3 {
     vertical-align: bottom;
 }
 
-button {
-    padding: 0.75rem;
-    background-color: #2B303A;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 2rem 1rem;
-    font-size: 110%;
-}
-
-button:hover {
-    cursor: pointer;
+.no-show, .no-show-big-screen {
+    display: none;
 }
 
 
@@ -497,6 +501,10 @@ textarea {
         height: 100%;
     }
 
+    .no-show {
+        display: block;
+    }
+
     #groups {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 3rem;
@@ -529,7 +537,7 @@ textarea {
         grid-template-rows: repeat(3, 1fr);
     }
 
-    .no-show {
+    .no-show-big-screen {
         display: none;
     }
 
