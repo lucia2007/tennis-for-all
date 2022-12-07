@@ -8,7 +8,7 @@ Tennis For All is useful for all people in a particular neighbourhood who want t
 
 <a href="https://lucia2007.github.io/tennis-for-all/index.html" target="_blank" rel="noopener">Let's play!</a>
 
-![Tennis For All responsive design](assets/readme-images/responsive_layout.png)
+![Tennis For All responsive design](readme-images/responsive_layout.png)
 
 # Contents
 
@@ -57,15 +57,15 @@ I also left out the "How to Find Us" section, as it was bringing focus to a part
 
 Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
 
-[Desktop wireframe page 1 and page 2](assets/readme-images/mockup_p1_p2_desktop.png)
+[Desktop wireframe page 1 and page 2](readme-images/mockup_p1_p2_desktop.png)
 
-[Desktop wireframe page 3](assets/readme-images/mockup_p3_desktop.png)
+[Desktop wireframe page 3](readme-images/mockup_p3_desktop.png)
 
-[Tablet and mobile wireframe page 1](assets/readme-images/mockup_p1_tablet_mobile.png)
+[Tablet and mobile wireframe page 1](readme-images/mockup_p1_tablet_mobile.png)
 
-[Tablet and mobile wireframe page 2](assets/readme-images/mockup_p2_tablet_mobile.png)
+[Tablet and mobile wireframe page 2](readme-images/mockup_p2_tablet_mobile.png)
 
-[Tablet and mobile wireframe page 3](assets/readme-images/mockup_p3_tablet_mobile.png)
+[Tablet and mobile wireframe page 3](readme-images/mockup_p3_tablet_mobile.png)
 
 [Back to top](#contents)
 
@@ -83,7 +83,7 @@ Tennis For All website has three pages. All pages can be easily accessed through
  * ### Color Scheme
       The chosen color scheme reflects the colors most often seen on tennis courts: green, orange, blue. The complementary colors were chosen using [Color pallete generator](coolors.co).
 
-![Colour Pallete image](assets/readme-images/color_pallete.png)
+![Colour Pallete image](readme-images/color_pallete.png)
 
 [Back to top](#contents)
 
@@ -95,7 +95,7 @@ Tennis For All website has three pages. All pages can be easily accessed through
 
 ### Navigation Menu
 
-![Navigation Menu](assets/readme-images/navbar.png)
+![Navigation Menu](readme-images/navbar.png)
 
 * Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to Home, Find Your Group and Contact page. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
 
@@ -105,7 +105,7 @@ Tennis For All website has three pages. All pages can be easily accessed through
 
 ### Hero Image
 
-![Hero Image](assets/readme-images/hero_image.png)
+![Hero Image](readme-images/hero_image.png)
 
 The landing page includes a large dynamic image of a tennis ball which catches the eye of the user.
 
@@ -113,7 +113,7 @@ The landing page includes a large dynamic image of a tennis ball which catches t
 
 ### Reasons Section
 
-![Reasons To Play Tennis](assets/readme-images/reasons.png)
+![Reasons To Play Tennis](readme-images/reasons.png)
 
 This sections introduces four reasons for taking up tennis, including a hypertext link to a study which shows that playing tennis can prolong life by 10 years, far more than other sports. Its goal is to get people interested and help them consider giving tennis a try.
 
@@ -121,7 +121,7 @@ This sections introduces four reasons for taking up tennis, including a hypertex
 
 ### Gallery
 
-![Gallery](assets/readme-images/gallery.png)
+![Gallery](readme-images/gallery.png)
 
 The main purpose of this section is to show people of different age, genders and economic status playing tennis, having fun and connection while doing it. This section will help users find courage to give tennis a try.
 
@@ -129,7 +129,7 @@ The main purpose of this section is to show people of different age, genders and
 
 ### Footer
 
-![The Footer](assets/readme-images/footer.png)
+![The Footer](readme-images/footer.png)
 
 The Footer section is consistent in design on all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
 
@@ -139,7 +139,7 @@ The Footer section is consistent in design on all pages. It includes email addre
 
 ### Available Groups 
 
-![Find Your Group](assets/readme-images/find_group.png)
+![Find Your Group](readme-images/find_group.png)
 
 This part of the page introduces different options which are available for interested clients. It provides details about the meet up times and place of each of the available groups, gives details about standards and format of the game. Cost and refreshment information is also included.
 
@@ -147,7 +147,7 @@ This part of the page introduces different options which are available for inter
 
 ### Improvement Section
 
-![Improvement Section](assets/readme-images/improvement.png)
+![Improvement Section](readme-images/improvement.png)
 
 This section focuses on those players who would like to improve their game or play on a more competitive level. Links to educational videos in five major areas (grand strokes, serve, volley, footwork, tactics) are provided.  Information about coaching possibilies is presented for those clients who might be interested in taking up coaching. A link to the location of the neighbourhood club which offers these options is included.
 
@@ -157,7 +157,7 @@ This section focuses on those players who would like to improve their game or pl
 
 ### Contact Form and A Short Survey
 
-![Contact Form](assets/readme-images/form.png)
+![Contact Form](readme-images/form.png)
 
 A form is available for those who would like to get in touch, need further information or are interested in more competitive tennis or coaching. All elements, like name, email address etc. are required. The user is to provide his contact details including his/her name and email address. A short survey asks about group preference and about interest in coaching and/or competitive tennis.
 
@@ -167,7 +167,7 @@ A form is available for those who would like to get in touch, need further infor
 
 ### Thank You Message
 
-![Thank you message](assets/readme-images/thank_you.png)
+![Thank you message](readme-images/thank_you.png)
 
 A thank you message is displayed after filling in the contact form and the survey. The form is validated. The usual navigation links are available for the user to be able to return to the page of interest.
 
@@ -198,8 +198,6 @@ For detailed results of all the tests conducted, please refer to this [_file_](T
 
 # Deployment
 
-![GitHub pages deployement image](assets/readme-images/deployment.png)
-
 ## **Project Deployment**
 
 The site was deployed to GitHub pages. In order to deploy, the following steps were taken:
@@ -208,7 +206,7 @@ The site was deployed to GitHub pages. In order to deploy, the following steps w
   3. From the **Branch** drop-down menu select the option **main**, then click **save**.
   4. After the main branch has been selected and confirmed, the page will be automatically refreshed. The refresh might take several minutes. A detailed message will appear at the top of the page indicating the successful deployment. The message will include a link to the deployed site.
 
-![GitHub deploying process image](assets/readme-images/deployment.png)
+![GitHub deploying process image](readme-images/deployment.png)
 
 The link to the the live site can be found here - https://lucia2007.github.io/tennis-for-all/
 
@@ -220,7 +218,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 1. Log in to **GitHub** and locate the [repository](https://github.com/lucia2007/tennis-for-all).
 2. On the top right hand side of the page is a button called **'Fork'**. Click on the button to create a copy of the original repository in your GitHub Account.
 
-![GitHub forking process image](assets/readme-images/forking_process.png)
+![GitHub forking process image](readme-images/forking_process.png)
 
 [Back to top](#contents)
 
@@ -235,7 +233,7 @@ Take the following steps to create a clone of a project:
 5. Type **git clone**, and then paste the URL copied from GitHub.
 6. Press **enter** and the local clone will be created.
 
-![Github cloning process image](assets/readme-images/cloning_process.png)
+![Github cloning process image](readme-images/cloning_process.png)
 
 [Back to top](#contents)
 
@@ -245,15 +243,14 @@ Take the following steps to create a clone of a project:
 
 * The overall inspiration came from my local [Tennis Club](https://shankilltennisclub.com/) which is extremely welcoming and accomodating of new players. Visiting this club significantly helped our family with making friends, having fun, keeping fit and assimilating in the new country.
 * The inspiration for the navigation and the form came from *Love Running Project*.
-* The Find Your Group section was inspired by [Czechitas](https://czechitas.cz).
+* The styling of Find Your Group section was inspired by [Czechitas](https://czechitas.cz).
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
 * The location of the local tennis club is taken from [Google Maps](https://www.google.com/maps).
-* The Find Your Group page content was taken from this [site](https://shankilltennisclub.com/).
+* The Find Your Group page content was partly taken from this [site](https://shankilltennisclub.com/).
 * The color pallete was downloaded from [coolors](https://coolors.co).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 * The framework for the readme file was taken from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md).
-
 
 ## Media
 
@@ -261,7 +258,13 @@ Take the following steps to create a clone of a project:
 * The instructional tennis videos were found on [YouTube](https://youtube.com).
 * The photos were compressed using the [Squoosh app](https://squoosh.app//).
 
-## Extra Help
-* Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. Thank you all for your unending support.
+## Acknowledgement
+* Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
+* I received help from tutors with my images (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements.
+* To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
+* A tutorial for creating a sticky footer was found [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
+* [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) were instrumental in the use of flexbox.
+
+Thank you all for your support and encouragement.
 
 

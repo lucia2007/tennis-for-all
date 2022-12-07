@@ -8,23 +8,23 @@ The results of HTML validation of each of the pages are as follows:
 
 * Home Page
 
-![W3C Validator test result](assets/readme-images/index_page_no_errors.png)
+![W3C Validator test result](readme-images/index_page_no_errors.png)
 
 * Find Your Group Page
 
-![W3C Validator test result](assets/readme-images/group_page_no_errors.png)
+![W3C Validator test result](readme-images/group_page_no_errors.png)
 
 * Contact Us Page
 
-![W3C Validator test result](assets/readme-images/contact_page_no_errors.png)
+![W3C Validator test result](readme-images/contact_page_no_errors.png)
 
 * Thank You Page
 
-![W3C Validator test result](assets/readme-images/thanks_page_no_errors.png)
+![W3C Validator test result](readme-images/thanks_page_no_errors.png)
 
 The CSS Validator results are below:
 
-![W3C CSS Validator result](assets/readme-images/css_validation_no_errors.png)
+![W3C CSS Validator result](readme-images/css_validation_no_errors.png)
 
 ## Browser Compatibility
 
@@ -46,9 +46,9 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 * When validating the code, a few erros came up especially regarding the use of section and span elements. 
     ** I was using section elements without a header element and that was not allowed. I changed most of the section elements without a header into a div element. On the Contact Us page, I included a header with display none, as I did not want to change the look of the page, but had wanted to use the semantically more appropriate element. 
     ** Also a use of paragraph element within the span was not allowed. I changed the span element into a div and that solved the problem.
-    ** I was mising an <li> element around an anchor element for the map icon on the Find Your Group page.
+    ** I was mising an "<li>" element around an anchor element for the map icon on the Find Your Group page.
 * One of my early erros was that I had applied padding to my anchor element when hovered on, instead of applying it in a static position. This was causing the navbar items to be distorted and move/jump when hovered on. This was fixed by adding padding to the anchor element when static, rather than when hovered on. I also had to use outline rather then border for styling the navbar, as this was not adding to the size of the box.
-* In several cases I had to change <h1> heading to <h2> as it made more semantic sense.
+* In several cases I had to change h1 heading to h2 as it made more semantic sense.
 * When I deployed my site for the first time, my images did not show. This was due to a mistake in the relative path, where I had used two dots (../) instead of just one dot (./).
 
 ## Additional Testing
@@ -66,19 +66,19 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-![Lighthouse test result](assets/readme-images/home_lighthouse.png)
+![Lighthouse test result](readme-images/home_lighthouse.png)
 
 * Find Your Group Page
 
-![Lighthouse test result](assets/readme-images/group_lighthouse.png)
+![Lighthouse test result](readme-images/group_lighthouse.png)
 
 * Contact Us Page
 
-![Lighthouse test result](assets/readme-images/contact_lighthouse.png)
+![Lighthouse test result](readme-images/contact_lighthouse.png)
 
 * Thank You Page
 
-![Lighthouse test result](assets/readme-images/thanks_lighthouse.png)
+![Lighthouse test result](readme-images/thanks_lighthouse.png)
 
 
 * Originally, my site results were poor on performance and on accessibility. I compressed all images using [the Squoosh app](https://squoosh.app/) and it improved the peformance significantly. As for accessibility, I added extra aria-labels especially for the form which increased the score sufficiently.
