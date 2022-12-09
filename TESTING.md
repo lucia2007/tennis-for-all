@@ -2,7 +2,7 @@
 
 ## Code Validation
 
-The [Tennis For All](https://lucia2007.github.io/tennis-for-all/index.html) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of section and span (details below). All mistakes were corrected and both HTML and CSS files currently have no errors.
+The [Tennis For All](https://lucia2007.github.io/tennis-for-all/index.html) webpage was thouroughly tested. HTML code was reviewed in the [W3C HTML Validator](https://validator.w3.org). The CSS code was validated in the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). There were a few minor errors found regarding incorrect semantic use of section and span and a few missing tags (details below). All mistakes were corrected and both HTML and CSS files currently have no errors.
 
 The results of HTML validation of each of the pages are as follows:
 
@@ -43,16 +43,24 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 
 ## Fixed Bugs
 
-When validating the code, a few erros came up especially regarding the use of section and span elements. 
-* I was using section elements without a header element and that was not allowed. I changed most of the section elements without a header into a div element. 
-    * On the Contact Us page, I included a header with display none, as I did not want to change the look of the page, but had wanted to use the semantically more appropriate element (section rather than div). 
-* Use of paragraph element within the span was not allowed. I changed the span element into a div element.
-* An "li" element around an anchor element for the map icon on the [Find Your Group page](group.html) was missing which I added.
-* Navigation bar bug: Originally I had applied padding to my anchor element in navbar when hovered on, instead of applying it in a static position. This was causing the navbar items to be distorted and move/jump when hovered on. This was fixed by adding padding to the anchor element when static, rather than when hovered on. I also had to use outline rather then border for styling the navbar, as this was not adding to the size of the box.
-* In several cases I had to change h1 heading to h2 to improve accessibility and semantic sense.
-* When I deployed my site for the first time, my images did not show. This was due to a mistake in the relative path, where I had used two dots (../) instead of just one dot (./).
-* My images needed a "object-fit: cover" property to stop being unfocused.
-* My footer was overflowing because of a set min-width of one of the elements. I avoided this issue by substituting the long email address by an envelope icon.
+When validating the code, a few erros came up especially regarding the use of section, span elements and a few missing tags. 
+
+  
+| Bug | Section | Fix |
+| :----| :----| :--------:|
+|Section element used without a header element | All pages |I changed most of the section elements without a header into a div element. On the Contact Us page, however, I included a header with display none, as I did not want to change the look of the page, but had wanted to use the semantically more appropriate element (section rather than div).|
+| Use of paragraph element within a span element| Contact Us page | I changed the span element into div element. |
+| "li" element around anchor element for the map icon missing  | Find Your Group page  | I added the missing "li" tags  |
+| Navigation bar jumping up/moving when hovered on | All pages | I had to take away the padding which I had added to the anchor element in hover position and give it to the anchor element in static position. I also changes the border property for outline property which does not increase the size of the box. |
+| I used h1 instead of h2 in inappropriate places | All pages | I changes h1 to h2 in the relevant cases to improve accessibility and increase semantic sense. |
+| No images showed when site was first deployed | All pages | I had used two dots (../) instead of just one dot (./) in the relative path for the images. This was easily corrected by taking away one of the dots. |
+| Images distorted/blurry | Find Your Group page | I used "object-fit: cover" to fix this issue. |
+| Footer overflowing on small screens | All pages | A min-width had been set to the email in the footer. I avoided this issue by substituting the long email address by an envelope icon. |
+
+
+## Unfixed Bugs
+
+There are no known bugs in the project.
 
 ## Additional Testing
 

@@ -47,15 +47,13 @@ Tennis For All is useful for all people in a particular neighbourhood who want t
 
 The wireframes were created in [Balsamiq](https://balsamiq.com). Originally, I started with focusing on the desktop version. After encouragement from a tutor, I changed my approach to mobile first. This approach later led to simpler media queries.
 
-On the second page I added a fourth tennis group to make the page more even for larger screens. 
-
-I left out pictures in the Improvement section for larger screens as they were disruptive having been placed right under another set of pictures in the Find Your Group section.
+In comparison with the original design, I added a button ("Give Tennis a Try"/"Get Involved"), which serves as call to action, to both the first and the second page. Also a fourth tennis group on the second page was added to make the page more balanced for larger screens. 
 
 After consultation with my mentor, I additionaly created a separate section for the self-improvement tips, instead of placing them in the footer. 
 
 I also left out the "How to Find Us" section, as it was bringing focus to a particular club, whereas the purpose of the site is to arouse interest in tennis itself, the venue being secondary. 
 
-Lastly, I added an extra Thank you page where a user is taken after filling in the form to create a more pleasant user experience.
+Lastly, I added an extra "Thank you" page where a user is taken after filling in the form to create a more pleasant user experience.
 
 [Desktop wireframe page 1 and page 2](readme-images/mockup_p1_p2_desktop.png)
 
@@ -71,14 +69,14 @@ Lastly, I added an extra Thank you page where a user is taken after filling in t
 
 ## Site Structure
 
-Tennis For All website has three pages. All pages can be easily accessed through the navigation menu in the header section. The [Home page](index.html), the [Find Your Group](group.html) page and finally the [Contact Us](contact.html) page.
+Tennis For All website has three pages: the [Home page](index.html), the [Find Your Group](group.html) page and finally the [Contact Us](contact.html) page. All pages can be easily accessed through the navigation menu in the header section.
 
 [Back to top](#contents)
 
 ## Design Choices
 
  * ### Typography
-      The chosen fonts were downloaded from [Google Fonts](https://fonts.google.com/). "Albert Sans", weight 300, is used for the body and for the headings it is 'Nunito Sans', both with a fall back to sans-serif. Both fonts create an inviting, non-intimidating feeling and are easily legible.
+      "Albert Sans", weight 300, is used for the body and 'Nunito Sans' for the headings, both with a fall back to sans-serif. Both fonts create an inviting, non-intimidating feeling and are easily legible. The chosen fonts were downloaded from [Google Fonts](https://fonts.google.com/). 
 
  * ### Color Scheme
       The chosen color scheme reflects the colors most often seen on tennis courts: green, orange, blue. The complementary colors were chosen using [Color pallete generator](coolors.co).
@@ -89,17 +87,15 @@ Tennis For All website has three pages. All pages can be easily accessed through
 
 # Features
 
-<!-- Tennis For All is meant to be inviting, straightforward and easy to navigate. Navigation bar makes finding the necessary information simple. All hypertext links open in a new page. The contact form invites the clients to get in touch and get involved. -->
-
 ## Home Page
 
 ### Navigation Menu
 
 ![Navigation Menu](readme-images/navbar.png)
 
-* Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to Home, Find Your Group and Contact page. Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
+* The main logo "Tennis For All" is clickable and takes the user back to the home page.
 
-* The main logo is also clickable and takes the user back to the home page.
+* Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to "Home", "Find Your Group" and "Contact page". Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser. The position of the navigation bar is fixed so the user can easily access the remaining pages at any moment.
 
 [Back to top](#contents)
 
@@ -117,13 +113,17 @@ The landing page includes a large dynamic image of a tennis ball which catches t
 
 This sections introduces four reasons for taking up tennis, including a hypertext link to a study which shows that playing tennis can prolong life by 10 years, far more than other sports. Its goal is to get people interested and help them consider giving tennis a try.
 
+This section also contains a button "Give Tennis a Try" which takes the user to the second page where the user can learn more about the available options.
+
 [Back to top](#contents)
 
 ### Gallery
 
 ![Gallery](readme-images/gallery.png)
 
-The main purpose of this section is to show people of different age, genders and economic status playing tennis, having fun and connection while doing it. This section will help users find courage to give tennis a try.
+The main purpose of this section is to show people of different ages, genders and economic status playing tennis, having fun and connection while doing it. This section will help users find courage to give tennis a try.
+
+The amount of pictures for the mobile and tablet version is reduced so the user does not have to scroll for too long.
 
 [Back to top](#contents)
 
@@ -131,7 +131,7 @@ The main purpose of this section is to show people of different age, genders and
 
 ![The Footer](readme-images/footer.png)
 
-The Footer section is consistent in design on all pages. It includes email address and phone contact of the person responsible for the social tennis games which take place in the neighbourhood club. There are also links to a fictional social media profile including Facebook, Instagram and Twitter. The email includes a hypertext link to make it easy to get connected by email. The social media links open in a new tab. 
+The Footer section is consistent in design on all pages. It includes a clickable envelope icon which opens an email form on a blank page and make it easy to get connected by email. Phone contact of the person responsible for the social tennis games which take place in the neighbourhood club is stated. There are also links to fictional social media profiles including Facebook, Instagram and Twitter. The social media links open in a new tab. 
 
 [Back to top](#contents)
 
@@ -142,6 +142,8 @@ The Footer section is consistent in design on all pages. It includes email addre
 ![Find Your Group](readme-images/find_group.png)
 
 This part of the page introduces different options which are available for interested clients. It provides details about the meet up times and place of each of the available groups, gives details about standards and format of the game. Cost and refreshment information is also included.
+
+The "Get Involved" button will take the user directly to the "Contact Us" page where the user can fill in the form and get singed up/more information.
 
 [Back to top](#contents)
 
@@ -159,7 +161,7 @@ This section focuses on those players who would like to improve their game or pl
 
 ![Contact Form](readme-images/form.png)
 
-A form is available for those who would like to get in touch, need further information or are interested in more competitive tennis or coaching. All elements, like name, email address etc. are required. The user is to provide his contact details including his/her name and email address. A short survey asks about group preference and about interest in coaching and/or competitive tennis.
+A form is available for those who would like to get in touch, need further information or are interested in more competitive tennis or coaching. All elements, like name, email address etc. are required. The user is to provide his contact details including their name and email address. A short survey asks about group preference and about interest in coaching and/or competitive tennis.
 
 [Back to top](#contents)
 
@@ -169,13 +171,13 @@ A form is available for those who would like to get in touch, need further infor
 
 ![Thank you message](readme-images/thank_you.png)
 
-A thank you message is displayed after filling in the contact form and the survey. The form is validated. The usual navigation links are available for the user to be able to return to the page of interest.
+A thank you message is displayed after filling in the contact form and the survey. The usual navigation links are available for the user to be able to return to the page of interest.
 
 [Back to top](#contents)
 
 ### Future Features 
 
-* Adding a back to top button would enhance the user's experience as he/she wouldn't have to scroll back all the way to the top.
+* Adding a back to top button would enhance the user's experience as they would not have to scroll back all the way to the top.
 * I might consider changing the hero image for an image that would not be so dark in the future.
 
 [Back to top](#contents)
@@ -243,14 +245,14 @@ Take the following steps to create a clone of a project:
 
 * The overall inspiration came from my local [Tennis Club](https://shankilltennisclub.com/) which is extremely welcoming and accomodating of new players. Visiting this club significantly helped our family with making friends, having fun, keeping fit and assimilating in the new country.
 * The inspiration for the navigation and the form came from *Love Running Project*.
-* The styling of Find Your Group section was inspired by [Czechitas](https://czechitas.cz).
+* The styling of "Find Your Group" section was inspired by [Czechitas](https://czechitas.cz).
 * The fonts were downloaded from [Google Fonts](https://fonts.google.com/).
 * The location of the local tennis club is taken from [Google Maps](https://www.google.com/maps).
-* The Find Your Group page content was partly taken from this [site](https://shankilltennisclub.com/).
+* The "Find Your Group" page content was partly taken from this [site](https://shankilltennisclub.com/).
 * The color pallete was downloaded from [coolors](https://coolors.co).
 * The icons were found at [Font Awesome](https://fontawesome.com/).
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
-* The framework for the readme file was taken from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md).
+* The framework for the readme file was taken from [Wawas Wood](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md) and from [Scoops](https://github.com/amylour/scoops_pp1/blob/main/README.md#testing).
 
 ## Media
 
@@ -260,9 +262,9 @@ Take the following steps to create a clone of a project:
 
 ## Acknowledgements
 * Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
-* I received help from tutors with my images (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements.
+* I received help from tutors with my images which were blurry (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements (more details in the [Testing File](TESTING.md))
 * To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
-* A tutorial for creating a sticky footer was found [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
+* A tutorial for creating a sticky header and footer was found [here](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
 * [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) were instrumental in the use of flexbox.
 
 Thank you all for your support and encouragement.
