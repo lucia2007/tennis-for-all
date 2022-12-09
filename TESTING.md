@@ -8,19 +8,19 @@ The results of HTML validation of each of the pages are as follows:
 
 * Home Page
 
-![W3C Validator test result](readme-images/index_page_no_errors.png)
+  ![W3C Validator test result](readme-images/index_page_no_errors.png)
 
 * Find Your Group Page
 
-![W3C Validator test result](readme-images/group_page_no_errors.png)
+  ![W3C Validator test result](readme-images/group_page_no_errors.png)
 
 * Contact Us Page
 
-![W3C Validator test result](readme-images/contact_page_no_errors.png)
+  ![W3C Validator test result](readme-images/contact_page_no_errors.png)
 
 * Thank You Page
 
-![W3C Validator test result](readme-images/thanks_page_no_errors.png)
+  ![W3C Validator test result](readme-images/thanks_page_no_errors.png)
 
 The CSS Validator results are below:
 
@@ -41,7 +41,7 @@ Testing of responsive design was carried out manually by utilizing [Google Chrom
 | Links  | pass       | pass         | pass     | pass      | pass     | pass            | pass            |
 
 
-## Known Bugs
+## Fixed Bugs
 
 When validating the code, a few erros came up especially regarding the use of section and span elements. 
 * I was using section elements without a header element and that was not allowed. I changed most of the section elements without a header into a div element. 
@@ -69,19 +69,19 @@ The application was also tested using [Google Lighthouse](https://developers.goo
 
 * Home Page
 
-![Lighthouse test result](readme-images/home_lighthouse.png)
+  ![Lighthouse test result](readme-images/home_lighthouse.png)
 
 * Find Your Group Page
 
-![Lighthouse test result](readme-images/group_lighthouse.png)
+  ![Lighthouse test result](readme-images/group_lighthouse.png)
 
 * Contact Us Page
 
-![Lighthouse test result](readme-images/contact_lighthouse.png)
+  ![Lighthouse test result](readme-images/contact_lighthouse.png)
 
 * Thank You Page
 
-![Lighthouse test result](readme-images/thanks_lighthouse.png)
+  ![Lighthouse test result](readme-images/thanks_lighthouse.png)
 
 
 * Originally, my site results were poor on performance and on accessibility. I compressed all images using [the Squoosh app](https://squoosh.app/) and it improved the peformance significantly. As for accessibility, I added extra aria-labels especially for the form which increased the score substantialy.

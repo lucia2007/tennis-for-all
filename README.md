@@ -1,12 +1,12 @@
 # Tennis For All
 
-The purpose of this website is to encourage people of all ages, skills and standards to consider taking up tennis. It introduces tennis as an accessible option for everyone. It shows you don’t have to be a pro with years of coaching to be able to enjoy this game. The social aspect of the events is clearly emphasized as well. 
+The purpose of this website is to encourage people of all ages, skills and standards to consider taking up tennis. It introduces tennis as an accessible option for everyone. It shows you don’t have to be a pro with years of coaching to be able to enjoy this game. The social aspect of the events is clearly emphasized. 
 
 The site is targeted towards people who might not be very physically active and who are lacking social connection. 
 
 Tennis For All is useful for all people in a particular neighbourhood who want to meet new friends and be more fit by providing information about different game options available for men, women and children, but also for those who want to play tennis at a more competitive level.
 
-<a href="https://lucia2007.github.io/tennis-for-all/index.html" target="_blank" rel="noopener">Let's play!</a>
+<a href="https://lucia2007.github.io/tennis-for-all/index.html" target="_blank" rel="noopener">Tennis For All</a>
 
 ![Tennis For All responsive design](readme-images/responsive_layout.png)
 
