@@ -37,6 +37,8 @@ h3 {
     font-weight: 900;
 }
 
+/* properties to make the header fixed were found here - https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+
 #ctn-header {
     background-color: #23671C;
     display: flex;
@@ -63,6 +65,8 @@ h3 {
 #menu li {
     list-style-type: none;
 }
+
+/* at the recommendation of Ed from student support I took out the padding from the following element and used |outline" instead of "border" */
 
 #menu a:hover {
     background-color: white;
@@ -104,6 +108,8 @@ h3 {
 
 /* reasons  */
 
+/* use of grid was recommended by Ed from Student support which made the media queries later on relatively simple */
+
 #reasons-boxes {
     display: grid;
     grid-template-columns: 1fr;
@@ -144,6 +150,8 @@ button:hover {
 }
 
 /* gallery */
+
+/* Originally I tried using a fixed height for the pictures, but the images were distorted. Again Ed from student support suggested using "grid-template-columns: 1fr" helped with the distorted pictures */
 
 #ctn-gallery {
     display: grid;
@@ -212,6 +220,8 @@ button:hover {
 /* Find Your Groups styles */
 
 /* meet up info */
+
+/* Use of "object-fit: cover" was recommended by Ed from Student support */
 
 .image {
     border-radius: 50%;
@@ -390,6 +400,8 @@ fieldset {
     padding-left: 0.5rem;
 }
 
+/* code partly take from "Love Running" project */
+
 input[type=submit] {
     padding: 0.75rem;
     background-color: #2B303A;
@@ -430,6 +442,7 @@ textarea {
 /* media queries to ensure responsivness on different devices */
 
 /* media queries for tablet */
+
 @media screen and (min-width: 600px) {
     #ctn-header {
         flex-direction: row;
@@ -461,6 +474,8 @@ textarea {
         gap: 3rem;
         padding: 0 5rem;
     }
+
+    /* instructions to create a "sticky" footer were found here - https://www.youtube.com/watch?v=VSIB9zPYu4w */
 
     #ctn-footer {
         font-size: 80%;

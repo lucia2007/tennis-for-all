@@ -262,11 +262,12 @@ Take the following steps to create a clone of a project:
 
 ## Acknowledgements
 * Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife. 
-* I received help from tutors with my images which were blurry (object fit: cover property and the use of grid helped), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements (more details in the [Testing File](TESTING.md))
+* I received help from tutors with my images which were blurry ("object-fit: cover" property, with responsivness (the use of grid instead of flex especially for the "available groups" and the gallery section was recommended), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements (more details in the [Testing File](TESTING.md))
 * To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
 * A tutorial for creating a sticky header and footer was found [here](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
 * [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) were instrumental in the use of flexbox.
 
 Thank you all for your support and encouragement.
 
+[Back to top](#contents)
 
