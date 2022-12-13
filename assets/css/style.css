@@ -66,7 +66,7 @@ h3 {
     list-style-type: none;
 }
 
-/* at the recommendation of Ed from student support I took out the padding from the following element and used |outline" instead of "border" */
+/* at the recommendation of Ed from student support I took out the padding from the following element and used "outline" instead of "border" */
 
 #menu a:hover {
     background-color: white;
@@ -475,7 +475,7 @@ textarea {
         padding: 0 5rem;
     }
 
-    /* instructions to create a "sticky" footer were found here - https://www.youtube.com/watch?v=VSIB9zPYu4w */
+/* instructions to create a "sticky" footer were found here - https://www.youtube.com/watch?v=VSIB9zPYu4w */
 
     #ctn-footer {
         font-size: 80%;
