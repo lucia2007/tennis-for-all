@@ -37,8 +37,6 @@ h3 {
     font-weight: 900;
 }
 
-/* properties to make the header fixed were found here - https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
-
 #ctn-header {
     background-color: #23671C;
     display: flex;
@@ -46,9 +44,6 @@ h3 {
     flex-direction: column;
     justify-content: flex-start;
     font-size: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 #ctn-header a {
@@ -475,7 +470,7 @@ textarea {
         padding: 0 5rem;
     }
 
-/* instructions to create a "sticky" footer were found here - https://www.youtube.com/watch?v=VSIB9zPYu4w */
+    /* instructions to create a "sticky" footer were found here - https://www.youtube.com/watch?v=VSIB9zPYu4w */
 
     #ctn-footer {
         font-size: 80%;

@@ -99,7 +99,7 @@ Tennis For All website has three pages: the [Home page](index.html), the [Find Y
 
 - The main logo "Tennis For All" is clickable and takes the user back to the home page.
 
-- Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to "Home", "Find Your Group" and "Contact page". Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser. The position of the navigation bar is fixed so the user can easily access the remaining pages at any moment.
+- Navigation Bar is present on all three pages to make navigation of the website easy and quick. It containes links to "Home", "Find Your Group" and "Contact page". Its design is consistent and identical on all of the pages. This feature enables the users to navigate from page to page without having to use the "back" button of the browser.
 
 [Back to top](#contents)
 
@@ -272,7 +272,7 @@ Take the following steps to create a clone of a project:
 - Extra help and guidance was received from my mentor Precious Ijege, from tutors and fellow colleagues from the Code Institute. Many an insight was received from my friend Aoife.
 - I received help from tutors with my images which were blurry ("object-fit: cover" property, with responsivness (the use of grid instead of flex especially for the "available groups" and the gallery section was recommended), with navigation bar which was "jumping" and becoming bigger when hovered on and with my footer overflowing due to a set size of one of the elements (more details in the [Testing File](TESTING.md))
 - To make the buttons on Home and Find Your Group page clickable, I used the [solution #1](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link) from the indicated website (onclick="window.location.href = 'group.html';").
-- A tutorial for creating a fixed/sticky header and footer was found [here](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
+- A tutorial for creating a sticky footer was found [here](https://www.youtube.com/watch?v=VSIB9zPYu4w).
 - [Kevin Powell's videos](https://www.youtube.com/watch?v=u044iM9xsWU) were instrumental in the use of flexbox.
 
 Thank you all for your support and encouragement.
