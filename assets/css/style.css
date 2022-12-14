@@ -49,6 +49,7 @@ h3 {
 #ctn-header a {
     text-decoration: none;
     color: white;
+    padding: 0.2rem;
 }
 
 #menu {
@@ -72,7 +73,6 @@ h3 {
 
 .active {
     background-color: #2B303A;
-    padding: 0.2rem;
     border-radius: 5px;
 }
 
