@@ -60,6 +60,7 @@ h3 {
 
 #menu li {
     list-style-type: none;
+    text-align: center;
 }
 
 /* at the recommendation of Ed from student support I took out the padding from the following element and used "outline" instead of "border" */
